@@ -131,7 +131,7 @@ automatically be updated when using the pre-commit script.
     * ************************************************************************ */
 
 2. When adding a new routine, please make sure you are also adding appropriate testing code. These new unit tests should
-integrate within the existing `googletest framework <https://github.com/google/googletest/blob/master/googletest/docs/primer.md>`_.
+integrate within the existing `googletest framework <https://github.com/google/googletest/blob/main/docs/primer.md>`_.
 This typically involves adding the following files:
 
   * ``testing_<routine_name>.cpp`` file in the directory ``clients/testing/``
