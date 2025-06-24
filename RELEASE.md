@@ -36,9 +36,9 @@ Click the component name to go to the component's source code on GitHub.
     <table id="rocm-rn-components" class="table">
         <thead>
             <tr>
-                <th>Category</th>
                 <th>Name</th>
                 <th>Version</th>
+                <th></th>
             </tr>
         </thead>
         <colgroup>
@@ -47,17 +47,19 @@ Click the component name to go to the component's source code on GitHub.
         </colgroup>
         <tbody class="rocm-components-libs rocm-components-ml">
             <tr>
-                <th rowspan="9">Components</th>
                 <td><a href="https://github.com/ROCm-DS/hipDF">hipDF</a></td>
                 <td>1.0.0b1</td>
+                <td><a href="https://github.com/ROCm-DS/hipDF"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://github.com/ROCm-DS/hipMM">hipMM</a></td>
                 <td>1.0.0b1</td>
+                <td><a href="https://github.com/ROCm-DS/hipMM"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://github.com/ROCm-DS/hipGRAPH">hipGRAPH</a></td>
                 <td>1.0.0b1</td>
+                <td><a href="https://github.com/ROCm-DS/hipGRAPH"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>
