@@ -10,9 +10,9 @@
 <!-- markdownlint-disable reference-links-images            -->
 <!-- markdownlint-disable no-missing-space-atx              -->
 <!-- spellcheck-disable                                     -->
-# ROCm-DS 25.05 Release notes
+# ROCm-DS 25.10 Release notes
 
-We are excited to announce the early access release of ROCm-DS, a new software toolkit
+We are excited to announce the general release of ROCm-DS, a software toolkit
 designed to accelerate data science workloads on selected AMD Instinct GPUs. This release serves
 as a preview of the capabilities that will be enabled by future ROCm-DS releases and is
 not intended for production workloads. Below, you'll find a detailed summary of the key
@@ -53,13 +53,23 @@ Click the component name to go to the component's source code on GitHub.
             </tr>
             <tr>
                 <td><a href="https://github.com/ROCm-DS/hipMM">hipMM</a></td>
-                <td>1.0.0b1</td>
+                <td>1.0.0</td>
                 <td><a href="https://github.com/ROCm-DS/hipMM"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://github.com/ROCm-DS/hipGRAPH">hipGRAPH</a></td>
                 <td>1.0.0b1</td>
                 <td><a href="https://github.com/ROCm-DS/hipGRAPH"><i class="fab fa-github fa-lg"></i></a></td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/ROCm-DS/hipRAFT">hipRAFT</a></td>
+                <td>1.0.0b1</td>
+                <td><a href="https://github.com/ROCm-DS/hipRAFT"><i class="fab fa-github fa-lg"></i></a></td>
+            </tr>
+            <tr>
+                <td><a href="https://github.com/ROCm-DS/hipVS">hipVS</a></td>
+                <td>1.0.0b1</td>
+                <td><a href="https://github.com/ROCm-DS/hipVS"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>
@@ -106,3 +116,11 @@ For a full list of all available functionality, please see the [hipGRAPH documen
 ### hipMM
 
 hipMM (hip Memory Manager) enables the customization of device memory and is a key supporting library for hipDF. Although hipMM is included in the early access release and installation instructions are provided, API documentation is not currently available. hipMM is based on the RAPIDS Memory Manager (RMM) library.
+
+### hipRAFT
+
+hipRAFT ....
+
+### hipVS
+
+hipVS ....
