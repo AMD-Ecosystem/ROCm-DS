@@ -48,7 +48,7 @@ Click the component name to go to the component's source code on GitHub.
         <tbody class="rocm-components-libs rocm-components-ml">
             <tr>
                 <td><a href="https://github.com/ROCm-DS/hipDF">hipDF</a></td>
-                <td>1.0.0b1</td>
+                <td>1.0.0</td>
                 <td><a href="https://github.com/ROCm-DS/hipDF"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
@@ -63,12 +63,12 @@ Click the component name to go to the component's source code on GitHub.
             </tr>
             <tr>
                 <td><a href="https://github.com/ROCm-DS/hipRAFT">hipRAFT</a></td>
-                <td>1.0.0b1</td>
+                <td>1.0.0</td>
                 <td><a href="https://github.com/ROCm-DS/hipRAFT"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://github.com/ROCm-DS/hipVS">hipVS</a></td>
-                <td>1.0.0b1</td>
+                <td>1.0.0</td>
                 <td><a href="https://github.com/ROCm-DS/hipVS"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
