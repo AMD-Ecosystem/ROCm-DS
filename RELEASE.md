@@ -16,7 +16,7 @@ We are excited to announce the general release of ROCm-DS, a software toolkit
 designed to accelerate data science workloads on selected AMD Instinct GPUs. This release serves
 as a preview of the capabilities that will be enabled by future ROCm-DS releases and is
 not intended for production workloads. Below, you'll find a detailed summary of the key
-highlights for ROCm-DS 25.05.
+highlights for ROCm-DS 25.10.
 
 - [ROCm-DS Release highlights](#release-highlights)
 - [ROCm-DS components](#rocm-ds-components)
@@ -25,12 +25,14 @@ highlights for ROCm-DS 25.05.
 
 ROCm-DS is a GPU-accelerated data science library, similar to the NVIDIA RAPIDS software collection. The early access release includes two libraries. hipDF is an accelerated DataFrame library that enables large-scale data processing and manipulation, based on the RAPIDS cuDF library. hipGraph is an accelerated graph marshalling library which allows you to build, analyze, and manipulate complex graphs and networks, and is based on the RAPIDS cuGraph library.
 
-The 25.05 release is a technology preview and is not intended for production workloads. The individual components are based on older versions of their RAPIDS counterparts and have not been fully optimized.
+The 25.10 release is a technology preview and is not intended for production workloads. The individual components are based on older versions of their RAPIDS counterparts and have not been fully optimized.
 
 ## ROCm-DS components
 
-The following table lists the versions of ROCm-DS components for the current release. 
-Click the component name to go to the component's source code on GitHub.
+The following table lists the versions of ROCm-DS components for the 25.10 release, including any version
+changes for the components. Click the updated version to go to a detailed description of a component's changes.
+
+Click {fab}`github` to go to the component's source code on GitHub.
 
 <div class="pst-scrollable-table-container">
     <table id="rocm-rn-components" class="table">
@@ -45,30 +47,30 @@ Click the component name to go to the component's source code on GitHub.
             <col span="1">
             <col span="1">
         </colgroup>
-        <tbody class="rocm-components-libs rocm-components-ml">
+        <tbody class="rocm-ds-components">
             <tr>
-                <td><a href="https://github.com/ROCm-DS/hipDF">hipDF</a></td>
-                <td>1.0.0</td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipDF/en/docs-25.10/">hipDF</a></td>
+                <td>1.0.0b1&nbsp;&Rightarrow;&nbsp;<a href="#hipdf">2.0.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipDF"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://github.com/ROCm-DS/hipMM">hipMM</a></td>
-                <td>1.0.0</td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipMM/en/docs-25.10/">hipMM</a></td>
+                <td>1.0.0b1&nbsp;&Rightarrow;&nbsp;<a href="#hipmm">3.0.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipMM"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://github.com/ROCm-DS/hipGRAPH">hipGRAPH</a></td>
-                <td>1.0.0b1</td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipGRAPH/en/docs-25.10/">hipGRAPH</a></td>
+                <td><a href="#hipgraph">1.0.0b1</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipGRAPH"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://github.com/ROCm-DS/hipRAFT">hipRAFT</a></td>
-                <td>1.0.0</td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipRAFT/en/docs-25.10/">hipRAFT</a></td>
+                <td><a href="#hipraft">2.0.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipRAFT"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://github.com/ROCm-DS/hipVS">hipVS</a></td>
-                <td>1.0.0</td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipVS/en/docs-25.10/">hipVS</a></td>
+                <td><a href="#hipvs">2.0.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipVS"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
@@ -80,7 +82,7 @@ Click the component name to go to the component's source code on GitHub.
 hipDF enables GPU accelerated DataFrames based on the Apache Arrow columnar memory format. Its API is similar to that of Pandas, enabling GPU accelerated data processing with a familiar API. This library enables large scale data processing on AMD Instinct GPUs, enabling data manipulation tasks such as loading, joining, aggregating, and filtering to be performed on data in GPU memory.
 hipDF offers both a Python and C++ API, allowing for a wide range of uses. Despite being named hipDF, this library is API compatible with the NVIDIA cuDF library, allowing for workloads to be transitioned to AMD devices without the need for hipification. Although there are plans to expand in future updates, the early access release only includes the hipDF namespace for the Python API.
 
-hipDF v1.0.0b1 is based on cuDF 23.10 and includes the following features:
+hipDF v2.0.0 is based on cuDF 23.10 and includes the following features:
 
 * hipDF offers the Series and DataFrame data structures that can be used to store and manipulate data directly on the GPU. The Series data structure acts as a one-dimensional array, while the DataFrame acts as a two-dimensional array with rows and columns. These data structures are similar to those present in the widely used Pandas library, and include similar methods to their Pandas counterparts allowing you to perform basic operations on the data structures and data within.
 * In addition to the data structure methods, more functionality is included to analyze and manipulate the DataFrames and data within them. This functionality includes:
