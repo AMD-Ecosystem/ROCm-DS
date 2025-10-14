@@ -3,6 +3,8 @@ subtrees:
 - entries:
   - file: about/release-notes.md
     title: Release notes
+  - file: about/compatibility-matrix.md
+    title: Compatibility matrix
 
 - caption: Install
   entries:

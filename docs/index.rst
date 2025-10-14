@@ -1,6 +1,6 @@
 .. meta::
   :description: Learn about the features and capabilities of ROCm for Data Science (ROCm-DS)
-  :keywords: Data-analytics, RAPIDS, cuDF, cuGraph, RMM, hipDF, hipGraph, hipMM, Pandas, NetworkX, High-Performance Computing, GPU Acceleration, GPU Computing, Parallel Computing, Scalable Data Science, Python
+  :keywords: Data-analytics, RAPIDS, cuDF, cuGraph, RMM, hipDF, hipGraph, hipRAFT, hipMM, hipVS, Pandas, NetworkX, High-Performance Computing, GPU Acceleration, GPU Computing, Parallel Computing, Scalable Data Science, Python
 
 .. rocmds-index:
 
@@ -8,9 +8,26 @@
 AMD ROCm-DS
 ********************************************************************
 
-The ROCm Data Science toolkit (or ROCm-DS) is an open-source software collection for high-performance data science applications built on the core ROCm platform. ROCm-DS is a fork of the RAPIDS® open-source project from NVIDIA and enables users to accelerate their data processing and analysis workloads on AMD GPUs. You can leverage ROCm-DS to accelerate both new and existing data science workloads, allowing you to execute intensive applications with larger datasets at lightning speed. ROCm-DS enables the creation of scalable solutions addressing the pressing needs of today's data-driven landscape. With ROCm-DS, you can build pre- and post-processing applications for your AI models, create new big data processing workloads, or accelerate your existing data science pipelines with minimal effort.
+The ROCm Data Science Toolkit (ROCm-DS) is an open-source collection of GPU-accelerated libraries designed to empower data scientists,
+engineers, and researchers to build high-performance data science applications and machine learning workflows on the ROCm platform.
+Built upon the core ROCm foundation, ROCm-DS provides a unified, efficient, and scalable environment for end-to-end data science acceleration.
 
-The available libraries in ROCm-DS provide the tools to build a complete workflow for data science acceleration on AMD GPUs. hipDF enables you to create DataFrames and execute GPU-accelerated operations on them. It also includes the ability to accelerate many existing Pandas workflows with minimal effort and no code changes. hipGraph can be used to create, analyze, and review complex networks. Both the hipDF and hipGraph libraries (currently in early access) provide these capabilities for acceleration on AMD Instinct GPUs, with hipMM providing supporting functions for the memory management of these high-performance GPU-based applications. For information about installing hipDF or hipGRAPH components, and required elements, see the Installation instructions for the components.
+ROCm-DS is a fork of the RAPIDS® open-source project from NVIDIA, extended and optimized for AMD GPUs. It enables users to accelerate
+both new and existing data science workloads, executing intensive applications with larger datasets at exceptional speed. With ROCm-DS,
+you can build pre- and post-processing applications for AI models, create big data processing workloads, or accelerate existing data
+science pipelines with minimal effort.
+
+ROCm-DS delivers a cohesive set of libraries that target every stage of the data science lifecycle, from data ingestion and transformation
+to graph analytics, mathematical computation, and vector search. Each component is optimized for GPU performance while maintaining user-friendly
+interfaces compatible with existing data science frameworks and APIs.
+
+The toolkit includes the following key components:
+
+* hipDF – A GPU-accelerated DataFrame library offering fast and scalable tabular data manipulation, aggregation, and transformation. hipDF enables high-performance preprocessing, feature engineering, and ETL workflows essential for modern data pipelines. It also supports the acceleration of many existing Pandas workflows with little to no code changes.
+
+* hipGRAPH – Leverages GPU acceleration to process and analyze complex graph structures and networks with speed and precision. hipGRAPH supports diverse graph algorithms—such as centrality, traversal, similarity, sampling, and labeling—and integrates seamlessly with hipDF DataFrames across the ROCm-DS ecosystem.
+
+* hipRAFT – Provides a foundational layer of reusable GPU-accelerated primitives for data science and machine learning, including clustering, dimensionality reduction, and statistical operations. hipRAFT serves as the computational backbone for higher-level data science and AI applications.
 
 ROCm-DS documentation is organized into the following categories:
 
