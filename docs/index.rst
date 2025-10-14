@@ -25,10 +25,10 @@ ROCm-DS documentation is organized into the following categories:
   .. grid-item-card:: Components
 
     * `hipDF <https://rocm.docs.amd.com/projects/hipDF/en/latest/>`_
-    * `hipMM <https://rocm.docs.amd.com/projects/hipMM/en/latest/>`_
+    * `hipMM <https://rocm.docs.amd.com/projects/hipMM-internal/en/latest/>`_
     * `hipGRAPH <https://rocm.docs.amd.com/projects/hipGRAPH/en/latest/>`_
-    * `hipRAFT <https://rocm.docs.amd.com/projects/hipRAFT/en/latest/>`_
-    * `hipVS <https://rocm.docs.amd.com/projects/hipVS/en/latest/>`_
+    * `hipRAFT <https://rocm.docs.amd.com/projects/hipRAFT-internal/en/release-rocmds-ga-25.10/>`_
+    * `hipVS <https://rocm.docs.amd.com/projects/hipvs-internal/en/latest/>`_
 
   .. grid-item-card:: Related Content
 

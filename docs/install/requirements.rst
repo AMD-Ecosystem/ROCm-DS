@@ -10,11 +10,11 @@ System requirements
 
 The following are the ROCm-DS release compatibilities and system requirements:
 
-* ROCm 6.4 or later installed
+* ROCm 7.0 or later installed
 * Operating Systems: Ubuntu 22.04
 * AMD Instinct Accelerators
 
   - MI300A / MI300X (GPU target gfx942)
   - MI250X / MI250 / MI210 (GPU target gfx90a)
 
-* Python 3.10
+* Python 3.12
