@@ -67,12 +67,12 @@ Click {fab}`github` to go to the component's source code on GitHub.
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/hipRAFT/en/docs-25.10/">hipRAFT</a></td>
-                <td><a href="#hipraft">2.0.0</a></td>
+                <td><a href="#hipraft">0.1.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipRAFT"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/hipVS/en/docs-25.10/">hipVS</a></td>
-                <td><a href="#hipvs">2.0.0</a></td>
+                <td><a href="#hipvs">0.1.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipVS"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
