@@ -21,7 +21,7 @@ ROCm-DS delivers a cohesive set of libraries that target every stage of the data
 to graph analytics, mathematical computation, and vector search. Each component is optimized for GPU performance while maintaining user-friendly
 interfaces compatible with existing data science frameworks and APIs.
 
-The toolkit includes the following key components:
+The ROCm-DS toolkit includes the following components:
 
 * hipDF – A GPU-accelerated DataFrame library offering fast and scalable tabular data manipulation, aggregation, and transformation. hipDF enables high-performance preprocessing, feature engineering, and ETL workflows essential for modern data pipelines. It also supports the acceleration of many existing Pandas workflows with little to no code changes.
 

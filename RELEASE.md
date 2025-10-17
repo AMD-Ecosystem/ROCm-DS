@@ -12,14 +12,14 @@
 <!-- spellcheck-disable                                     -->
 # ROCm-DS 25.10 Release notes
 
-We are excited to announce the general availability (GA) release of the ROCm Data Science Toolkit (ROCm-DS), a comprehensive open-source software collection designed to accelerate data science and machine learning workloads on AMD GPUs. This GA release represents a major milestone for ROCm-DS, expanding beyond the initial early-access components of hipDF, hipGRAPH, and hipMM to include hipRAFT and hipVS. The GA release provides an end-to-end GPU-accelerated data science and AI ecosystem.
+AMD is pleased to announce the general availability (GA) release of the ROCm Data Science Toolkit (ROCm-DS), a comprehensive open-source software collection designed to accelerate data science and machine learning workloads on AMD GPUs. This GA release represents a major milestone for ROCm-DS, expanding beyond the initial early-access components of hipDF, hipGRAPH, and hipMM to include hipRAFT and hipVS. The GA release provides an end-to-end GPU-accelerated data science and AI ecosystem.
 
 - [ROCm-DS Release highlights](#rocm-ds-release-highlights)
 - [ROCm-DS components](#rocm-ds-components)
 
 ## ROCm-DS release highlights
 
-ROCm-DS is a GPU-accelerated data science toolkit inspired by NVIDIA RAPIDS® and developed to harness the performance of AMD Instinct GPUs. It accelerates every stage of the data science workflow, from data ingestion and transformation to graph analytics, clustering, and vector search. ROCm-DS 25.10 is a general availability release including the following major updates and highlights:
+ROCm-DS 25.10 is a general availability release providing a production-ready foundation for GPU-accelerated data science on AMD hardware, with continued development focused on expanded capabilities and performance optimization in future versions. This release includes the following major updates and highlights:
 
 * Transition of hipDF and hipMM from early access to production-ready status.
 * Introduction of hipRAFT and hipVS for advanced data science, machine learning, and vector similarity workloads.
@@ -27,14 +27,10 @@ ROCm-DS is a GPU-accelerated data science toolkit inspired by NVIDIA RAPIDS® an
 * Enhanced performance, memory efficiency, and API stability across all components.
 * Continued support for both Python and C++ APIs, enabling integration with popular frameworks such as Pandas and other RAPIDS-compatible tools.
 
-This release provides a production-ready foundation for GPU-accelerated data science on AMD hardware, with continued development focused on expanded capabilities and performance optimization in future versions.
-
 ## ROCm-DS components
 
-The following table lists the versions of ROCm-DS components for the 25.10 release, including any version
-changes for the components. Click the updated version to go to a detailed description of a component's changes.
-
-Click {fab}`github` to go to the component's source code on GitHub.
+The following table lists ROCm-DS components versions for the 25.10 release, including any version
+changes for the components. Click {fab}`github` to go to the component's source code on GitHub.
 
 <div class="pst-scrollable-table-container">
     <table id="rocm-rn-components" class="table">

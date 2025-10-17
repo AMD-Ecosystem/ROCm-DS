@@ -5,10 +5,10 @@
 .. _system-requirements:
 
 **************************************************************************************
-System requirements
+ROCm-DS system requirements
 **************************************************************************************
 
-The following are the ROCm-DS release compatibilities and system requirements: 
+The following are the ROCm-DS system requirements: 
 
 * ROCm version: 7.0.2  
 * Operating Systems: Ubuntu 22.04 
