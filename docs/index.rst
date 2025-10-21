@@ -8,7 +8,7 @@
 AMD ROCm-DS
 ********************************************************************
 
-The ROCm Data Science Toolkit (ROCm-DS) is an open-source collection of GPU-accelerated libraries designed to empower data scientists,
+The AMD ROCm™ Data Science Toolkit (ROCm-DS) is an open-source collection of GPU-accelerated libraries designed to empower data scientists,
 engineers, and researchers to build high-performance data science applications and machine learning workflows on the ROCm platform.
 Built upon the core ROCm foundation, ROCm-DS provides a unified, efficient, and scalable environment for end-to-end data science acceleration.
 
@@ -27,7 +27,15 @@ The ROCm-DS toolkit includes the following components:
 
 * hipGRAPH – Leverages GPU acceleration to process and analyze complex graph structures and networks with speed and precision. hipGRAPH supports diverse graph algorithms—such as centrality, traversal, similarity, sampling, and labeling—and integrates seamlessly with hipDF DataFrames across the ROCm-DS ecosystem.
 
+* hipMM – The HIP Memory Manager library provides advanced GPU memory management utilities such as efficient allocation, pooling, and data movement to support the various libraries that form part of ROCm-DS. 
+
 * hipRAFT – Provides a foundational layer of reusable GPU-accelerated primitives for data science and machine learning, including clustering, dimensionality reduction, and statistical operations. hipRAFT serves as the computational backbone for higher-level data science and AI applications.
+
+* hipVS – A GPU-accelerated vector search library containing a variety of high-performance approximate and exact nearest-neighbor and clustering algorithms. hipVS integrates seamlessly with DataFrames offered through hipDF, to enable support for a wide variety of data science workloads. 
+
+.. note::
+
+  The hipGRAPH, hipRAFT, and hipVS libraries are in an *early access* state. Running production workloads with these libraries is *not* recommended. 
 
 ROCm-DS documentation is organized into the following categories:
 
