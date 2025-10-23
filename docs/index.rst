@@ -37,6 +37,8 @@ The ROCm-DS toolkit includes the following components:
 
   The hipGRAPH, hipRAFT, and hipVS libraries are in an *early access* state. Running production workloads with these libraries is *not* recommended. 
 
+The ROCm-DS organization is open and hosted at `https://github.com/ROCm-DS/ <https://github.com/ROCm-DS/>`_.
+
 ROCm-DS documentation is organized into the following categories:
 
 .. grid:: 2
@@ -49,10 +51,10 @@ ROCm-DS documentation is organized into the following categories:
 
   .. grid-item-card:: Components
 
-    * `hipDF <https://rocm.docs.amd.com/projects/hipDF/en/latest/>`_
+    * `hipDF <https://rocm.docs.amd.com/projects/hipDF-internal/en/latest/>`_
     * `hipMM <https://rocm.docs.amd.com/projects/hipMM-internal/en/latest/>`_
     * `hipGRAPH <https://rocm.docs.amd.com/projects/hipGRAPH/en/latest/>`_
-    * `hipRAFT <https://rocm.docs.amd.com/projects/hipRAFT-internal/en/release-rocmds-25.10/>`_
+    * `hipRAFT <https://rocm.docs.amd.com/projects/hipRAFT-internal/en/latest/>`_
     * `hipVS <https://rocm.docs.amd.com/projects/hipvs-internal/en/latest/>`_
 
   .. grid-item-card:: Related Content
