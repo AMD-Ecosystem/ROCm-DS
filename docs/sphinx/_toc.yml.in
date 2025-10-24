@@ -15,7 +15,7 @@ subtrees:
 
 - caption: Components
   entries: 
-  - url: https://rocm.docs.amd.com/projects/hipDF/en/latest/
+  - url: https://rocm.docs.amd.com/projects/hipdf-internal/en/latest/
     title: hipDF
   - url: https://rocm.docs.amd.com/projects/hipMM-internal/en/latest/
     title: hipMM
