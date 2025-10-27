@@ -35,7 +35,7 @@ The ROCm-DS toolkit includes the following components:
 
 .. note::
 
-  The hipGRAPH, hipRAFT, and hipVS libraries are in an *early access* state. Running production workloads with these libraries is *not* recommended. 
+  The hipGRAPH libraries are in an *early access* state. Running production workloads with these libraries is *not* recommended. 
 
 The ROCm-DS organization is open and hosted at `https://github.com/ROCm-DS/ <https://github.com/ROCm-DS/>`_.
 
@@ -46,7 +46,6 @@ ROCm-DS documentation is organized into the following categories:
 
   .. grid-item-card:: Installation
 
-    * :ref:`system-requirements`
     * :ref:`linux-install`
 
   .. grid-item-card:: Components

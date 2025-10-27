@@ -12,7 +12,11 @@
 <!-- spellcheck-disable                                     -->
 # ROCm-DS 25.10 Release notes
 
-AMD is pleased to announce the general availability (GA) release of the ROCm Data Science Toolkit (ROCm-DS), a comprehensive open-source software collection designed to accelerate data science and machine learning workloads on AMD GPUs. This GA release represents a major milestone for ROCm-DS, expanding beyond the initial early-access components of hipDF, hipGRAPH, and hipMM to include hipRAFT and hipVS. The GA release provides an end-to-end GPU-accelerated data science and AI ecosystem.
+AMD is pleased to announce the general availability (GA) release of the ROCm Data Science Toolkit (ROCm-DS), a comprehensive open-source software collection designed to accelerate data science and machine learning workloads on AMD GPUs. This GA release marks a significant milestone for ROCm-DS by transitioning hipDF and hipMM to production status. Additionally, it introduces two new production components: hipRAFT and hipVS. The GA release provides an end-to-end GPU-accelerated data science and AI ecosystem.
+
+```{note}
+hipGRAPH remains early access (EA) for the 25.10 release. 
+```
 
 - [ROCm-DS Release highlights](#rocm-ds-release-highlights)
 - [ROCm-DS components](#rocm-ds-components)

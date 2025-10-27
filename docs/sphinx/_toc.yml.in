@@ -8,10 +8,7 @@ subtrees:
 
 - caption: Install
   entries:
-  - file: install/requirements.rst
-    title: System requirements
   - file: install/install.rst
-    title: Installation instructions
 
 - caption: Components
   entries: 
