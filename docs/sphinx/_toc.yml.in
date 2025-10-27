@@ -3,6 +3,8 @@ subtrees:
 - entries:
   - file: about/release-notes.md
     title: Release notes
+  - file: about/compatibility-matrix.md
+    title: Compatibility matrix
 
 - caption: Install
   entries:
@@ -13,12 +15,16 @@ subtrees:
 
 - caption: Components
   entries: 
-  - url: https://rocm.docs.amd.com/projects/hipDF/en/latest/
+  - url: https://rocm.docs.amd.com/projects/hipdf-internal/en/latest/
     title: hipDF
-  - url: https://rocm.docs.amd.com/projects/hipMM/en/latest/
+  - url: https://rocm.docs.amd.com/projects/hipMM-internal/en/latest/
     title: hipMM
   - url: https://rocm.docs.amd.com/projects/hipGRAPH/en/latest/
     title: hipGRAPH
+  - url: https://rocm.docs.amd.com/projects/hipRAFT-internal/en/latest/
+    title: hipRAFT
+  - url: https://rocm.docs.amd.com/projects/hipvs-internal/en/latest/
+    title: hipVS
 
 - caption: Related content
   entries:
