@@ -1,6 +1,6 @@
 .. meta::
     :description: ROCm-DS release compatibility
-    :keywords: Data-analytics, RAPIDS, cuDF, cuGraph, RMM, hipDF, hipGraph, hipMM, Pandas, NetworkX, High-Performance Computing, GPU Acceleration, GPU Computing, Parallel Computing, Scalable Data Science, Python
+    :keywords: Data-analytics, RAPIDS, cuDF, cuGraph, RMM, hipDF, hipGRAPH, hipMM, Pandas, NetworkX, High-Performance Computing, GPU Acceleration, GPU Computing, Parallel Computing, Scalable Data Science, Python
 
 .. _contributing-to-rocm-ds:
 
@@ -8,7 +8,7 @@
 Contributing to ROCm-DS
 *************************
 
-AMD appreciates and values your interest in contributing to the ROCm Data Sciences (ROCm-DS) stack. This collection of libraries — hipDF, hipGraph,
+AMD appreciates and values your interest in contributing to the ROCm Data Sciences (ROCm-DS) stack. This collection of libraries — hipDF, hipGRAPH,
 hipMM, hipRAFT, and hipVS — is a fork of the RAPIDS® open-source project from NVIDIA and brings high-performance, GPU-accelerated data science,
 graph analytics, mathematical computation, and vector search to the ROCm ecosystem. 
  
@@ -21,13 +21,13 @@ Development workflow
 
 The ROCm-DS project uses GitHub to host the code, collaborate within the community, and manage version control. The project relies on pull requests
 for all changes within the repositories, ensuring that contributions are reviewed and discussed before being merged into the main codebase. This
-helps maintain code quality and consistency.The ROCm-DS project uses GitHub issues  To track bugs, feature requests, and other-project related tasks,
+helps maintain code quality and consistency. The ROCm-DS project uses GitHub issues to track bugs, feature requests, and other-project related tasks,
 providing a transparent and organized way to monitor progress and prioritize work. 
 
 Issue tracking
 --------------
 
-* Use the GitHub Issues tab for each project — hipDF, hipGraph, hipMM, hipRAFT, and hipVS.                   
+* Use the GitHub Issues tab for each project — hipDF, hipGRAPH, hipMM, hipRAFT, and hipVS.                   
 * Before opening a new issue, search for existing issues to avoid duplicates. If the issue exists, upvote it and add details or a minimal reproducer.
 * If you’re unsure whether your issue matches an existing one, file your issue and reference the similar issue number. If it is a duplicate,
   it will be closed and tracked through the original issue.

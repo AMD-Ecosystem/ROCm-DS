@@ -12,7 +12,7 @@ myst:
 
 ## ROCm-DS component licenses
 
-ROCm-DS is a fork of the RAPIDS Open Source project from NVIDIA, and is licensed
+ROCm-DS is a fork of the RAPIDS® Open Source project from NVIDIA®, and is licensed
 accordingly, with each listed component providing links to their respective license
 terms. These components may include third party components subject to additional
 licenses. Please review individual repositories for more information.
