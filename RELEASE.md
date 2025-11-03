@@ -52,29 +52,88 @@ changes for the components. Click {fab}`github` to go to the component's source 
         <tbody class="rocm-ds-components">
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/hipdf-internal/en/release-rocmds-25.10/">hipDF</a></td>
-                <td>1.0.0b1&nbsp;&Rightarrow;&nbsp;<a href="https://rocm.docs.amd.com/projects/hipdf-internal/en/release-rocmds-25.10/">2.0.0</a></td>
+                <td>1.0.0b1&nbsp;&Rightarrow;&nbsp;<a href="#hipdf-2-0-0">2.0.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipDF"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/hipMM-internal/en/release-rocmds-25.10/">hipMM</a></td>
-                <td>1.0.0b1&nbsp;&Rightarrow;&nbsp;<a href="https://rocm.docs.amd.com/projects/hipMM-internal/en/release-rocmds-25.10/">3.0.0</a></td>
+                <td>1.0.0b1&nbsp;&Rightarrow;&nbsp;<a href="#hipmm-3-0-0">3.0.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipMM"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/hipGRAPH/en/latest/">hipGRAPH</a></td>
-                <td><a href="https://rocm.docs.amd.com/projects/hipGRAPH/en/latest/">1.0.0b1</a></td>
+                <td>1.0.0b1</td>
                 <td><a href="https://github.com/ROCm-DS/hipGRAPH"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/hipRAFT-internal/en/release-rocmds-25.10/">hipRAFT</a></td>
-                <td><a href="https://rocm.docs.amd.com/projects/hipRAFT-internal/en/release-rocmds-25.10/">0.1.0</a></td>
+                <td><a href="#hipraft-0-1-0">0.1.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipRAFT"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/hipvs-internal/en/release-rocmds-25.10/">hipVS</a></td>
-                <td><a href="https://rocm.docs.amd.com/projects/hipvs-internal/en/release-rocmds-25.10/">0.1.0</a></td>
+                <td><a href="#hipvs-0-1-0">0.1.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipVS"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>
 </div>
+
+## Detailed component Changelogs
+
+The following sections describe key changes to ROCm-DS components.
+
+### hipDF (2.0.0)
+
+#### Added 
+
+* Major upgrade aligning hipDF APIs with RAPIDS cuDF 25.02 APIs. 
+* ROCm 7.0.2 support 
+
+#### Known limitations and notes 
+
+* DEBUG builds with -O0 optimization are not currently supported. Use -Og or higher for DEBUG builds (default setting). Support for -O0 is planned in a future toolchain update. 
+* When using the cudf.pandas acceleration layer with XNACK enabled and workloads that significantly exceed physical GPU VRAM (oversubscription), some systems may exhibit instability or reduced performance under heavy memory pressure.  
+* Using the cudf.pandas acceleration layer with XNACK disabled (`HSA_XNACK=0`) can trigger instabilities. 
+
+### hipMM (3.0.0)
+
+#### Added 
+
+* Major upgrade aligning hipDF APIs with RAPIDS cuDF 25.02 APIs. 
+* ROCm 7.0.2 support 
+
+### hipRAFT (0.1.0)
+
+#### Added 
+
+* Major upgrade aligning hipDF APIs with RAPIDS cuDF 25.02 APIs. 
+* ROCm 7.0.2 support 
+
+#### Changes 
+
+* Fixed uninitialized shared memory and bounds checking issues 
+* Optimized kernel launch parameters and LDS memory access for AMD GPUs 
+* Additional thread safety 
+
+#### Known limitations and notes 
+
+* Multi-Node/ Multi GPU is experimental 
+* Raft-dask is unsupported 
+
+### hipVS (0.1.0)
+
+#### Added 
+
+* Major upgrade aligning hipDF APIs with RAPIDS cuDF 25.02 APIs. 
+* ROCm 7.0.2 support 
+
+#### Changes 
+
+* Fixed uninitialized shared memory and bounds checking issues 
+* Optimized kernel launch parameters and LDS memory access for AMD GPUs 
+* Relaxed recall thresholds to account for hardware differences 
+
+#### Known limitations and notes 
+
+* Multi-GPU neighbors API with RCCL integration is experimental
