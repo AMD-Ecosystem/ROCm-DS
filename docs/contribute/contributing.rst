@@ -34,10 +34,10 @@ Issue tracking
 * When filing a new issue, use the repository issue template.
 * Include as much context as possible:
 
-   - ROCm version, GPU model(s), architecture(s), OS and version, kernel/driver versions
-   - Compiler/CMake/Python versions, branch or tag, commit SHA
-   - Exact commands run, logs, stack traces, and a minimal reproducer
-   - Expected vs. actual behavior
+  - ROCm version, GPU model(s), architecture(s), OS and version, kernel/driver versions
+  - Compiler/CMake/Python versions, branch or tag, commit SHA
+  - Exact commands run, logs, stack traces, and a minimal reproducer
+  - Expected vs. actual behavior
 
 * Monitor your issue for follow-up as additional information may be needed.
 * You can also open an issue to ask whether a proposed change meets the acceptance criteria or to discuss an idea about the library.
@@ -91,16 +91,6 @@ Pull Request Guidelines
     * THE SOFTWARE.
     *
     * ************************************************************************ */
-
-* For any header files add the following:
-
-  .. code:: cpp
-
-        #ifdef __HIP_PLATFORM_AMD__ 
-        #include <hip/hip_fp16.h> 
-        #else 
-        #include <CUDA HEADER> 
-        #endif 
 
 * Ensure your code builds successfully
 * Each component has a suite of test cases to run; include the log of the successful test run in your PR
