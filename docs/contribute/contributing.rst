@@ -45,20 +45,15 @@ Issue tracking
 Coding style
 ------------
 
-In general, follow the style of the surrounding code. C and C++ code are formatted using clang-format. Use the clang-format
-version installed with ROCm (found in the ``/opt/rocm/llvm/bin`` directory). 
+In general, follow the style of the surrounding code. HIP, C and C++ code is formatted using clang-format.  
 
-.. note:: 
-
-   Using your system’s built-in clang-format can result in incorrect formatting.
- 
-Also, githooks can be installed to format the code per-commit: 
+Also, githooks can be installed to format the code pre-commit: 
  
 .. code:: bash
 
-   pip install pre-commit 
-   cd <REPO_ROOT> 
-   pre-commit install 
+    pip install pre-commit # Install pre-commit into your python environement
+    cd <REPO_ROOT>
+    pre-commit install # Install the githooks using pre-commit
 
 Pull Request Guidelines
 =======================
