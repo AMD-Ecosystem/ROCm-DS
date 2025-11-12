@@ -12,10 +12,10 @@
 <!-- spellcheck-disable                                     -->
 # ROCm-DS 25.10 Release notes
 
-AMD is pleased to announce the general availability (GA) release of the ROCm Data Science Toolkit (ROCm-DS), a comprehensive open-source software collection designed to accelerate data science and machine learning workloads on AMD GPUs. This GA release marks a significant milestone for ROCm-DS by transitioning hipDF and hipMM to production status. Additionally, it introduces two new production components: hipRAFT and hipVS. The GA release provides an end-to-end GPU-accelerated data science and AI ecosystem.
+AMD is pleased to announce the general availability (GA) release of the ROCm Data Science Toolkit (ROCm-DS), a comprehensive open-source software collection designed to accelerate data science and machine learning workloads on AMD GPUs. This GA release marks a significant milestone for ROCm-DS as hipDF and hipMM transition to production status. Additionally, it introduces two new production components: hipRAFT and hipVS. The GA release provides an end-to-end GPU-accelerated data science and AI ecosystem.
 
 ```{note}
-hipGRAPH remains early access (EA) for the 25.10 release. 
+hipGRAPH remains early access (EA) in ROCm-DS 25.10. 
 ```
 
 - [ROCm-DS Release highlights](#rocm-ds-release-highlights)
@@ -51,12 +51,12 @@ changes for the components. Click {fab}`github` to go to the component's source 
         </colgroup>
         <tbody class="rocm-ds-components">
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipdf-internal/en/release-rocmds-25.10/">hipDF</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipDF/en/latest/">hipDF</a></td>
                 <td>1.0.0b1&nbsp;&Rightarrow;&nbsp;<a href="#hipdf-2-0-0">2.0.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipDF"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipMM-internal/en/release-rocmds-25.10/">hipMM</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipMM/en/latest/">hipMM</a></td>
                 <td>1.0.0b1&nbsp;&Rightarrow;&nbsp;<a href="#hipmm-3-0-0">3.0.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipMM"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
@@ -66,12 +66,12 @@ changes for the components. Click {fab}`github` to go to the component's source 
                 <td><a href="https://github.com/ROCm-DS/hipGRAPH"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipRAFT-internal/en/release-rocmds-25.10/">hipRAFT</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipRaft/en/latest/">hipRAFT</a></td>
                 <td><a href="#hipraft-0-1-0">0.1.0</a></td>
-                <td><a href="https://github.com/ROCm-DS/hipRAFT"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/ROCm-DS/hipRaft"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipvs-internal/en/release-rocmds-25.10/">hipVS</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipVS/en/latest/">hipVS</a></td>
                 <td><a href="#hipvs-0-1-0">0.1.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipVS"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
@@ -87,27 +87,27 @@ The following sections describe key changes to ROCm-DS components.
 
 #### Added 
 
-* Major upgrade aligning hipDF APIs with RAPIDS cuDF 25.02 APIs. 
+* Major upgrade aligning hipDF APIs with RAPIDS cuDF 25.02 APIs
 * ROCm 7.0.2 support 
 
 #### Known limitations and notes 
 
 * DEBUG builds with -O0 optimization are not currently supported. Use -Og or higher for DEBUG builds (default setting). Support for -O0 is planned in a future toolchain update. 
-* When using the cudf.pandas acceleration layer with XNACK enabled and workloads that significantly exceed physical GPU VRAM (oversubscription), some systems may exhibit instability or reduced performance under heavy memory pressure.  
+* When using the cudf.pandas acceleration layer with XNACK enabled and workloads that significantly exceed physical GPU VRAM (oversubscription), some systems might exhibit instability or reduced performance under heavy memory pressure.  
 * Using the cudf.pandas acceleration layer with XNACK disabled (`HSA_XNACK=0`) can trigger instabilities. 
 
 ### hipMM (3.0.0)
 
 #### Added 
 
-* Major upgrade aligning hipDF APIs with RAPIDS cuDF 25.02 APIs. 
+* Major upgrade aligning hipDF APIs with RAPIDS cuDF 25.02 APIs
 * ROCm 7.0.2 support 
 
 ### hipRAFT (0.1.0)
 
 #### Added 
 
-* Major upgrade aligning hipDF APIs with RAPIDS cuDF 25.02 APIs. 
+* Major upgrade aligning hipDF APIs with RAPIDS cuDF 25.02 APIs
 * ROCm 7.0.2 support 
 
 #### Changes 
@@ -125,7 +125,7 @@ The following sections describe key changes to ROCm-DS components.
 
 #### Added 
 
-* Major upgrade aligning hipDF APIs with RAPIDS cuDF 25.02 APIs. 
+* Major upgrade aligning hipDF APIs with RAPIDS cuDF 25.02 APIs
 * ROCm 7.0.2 support 
 
 #### Changes 
@@ -136,4 +136,4 @@ The following sections describe key changes to ROCm-DS components.
 
 #### Known limitations and notes 
 
-* Multi-GPU neighbors API with RCCL integration is experimental
+* Multi-GPU neighbors API with [ROCm RCCL](https://rocm.docs.amd.com/projects/rccl/en/docs-7.0.2/) integration is experimental

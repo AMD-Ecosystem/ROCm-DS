@@ -12,15 +12,15 @@ subtrees:
 
 - caption: Components
   entries: 
-  - url: https://rocm.docs.amd.com/projects/hipdf-internal/en/latest/
+  - url: https://rocm.docs.amd.com/projects/hipDF/en/latest/
     title: hipDF
-  - url: https://rocm.docs.amd.com/projects/hipMM-internal/en/latest/
+  - url: https://rocm.docs.amd.com/projects/hipMM/en/latest/
     title: hipMM
   - url: https://rocm.docs.amd.com/projects/hipGRAPH/en/latest/
     title: hipGRAPH
-  - url: https://rocm.docs.amd.com/projects/hipRAFT-internal/en/latest/
+  - url: https://rocm.docs.amd.com/projects/hipRaft/en/latest/
     title: hipRAFT
-  - url: https://rocm.docs.amd.com/projects/hipvs-internal/en/latest/
+  - url: https://rocm.docs.amd.com/projects/hipVS/en/latest/
     title: hipVS
 
 - caption: Related content
