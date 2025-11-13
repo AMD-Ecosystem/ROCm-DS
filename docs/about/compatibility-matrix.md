@@ -8,4 +8,3 @@ Use this matrix to view the ROCm-DS compatibility and system requirements across
 | 25.05 | Ubuntu 22.04 | 6.4.0 or later | 3.10 | <ul><li>MI300A / MI300X (GPU target gfx942)</li><li>MI250X / MI250 / MI210 (GPU target gfx90a)</li></ul> | <ul><li>[hipDF 1.0.0b1](https://rocm.docs.amd.com/projects/hipDF/en/docs-25.05/)</li><li>[hipMM 1.0.0b1](https://rocm.docs.amd.com/projects/hipMM/en/docs-25.05/)</li><li>[hipGRAPH 1.0.0b1](https://rocm.docs.amd.com/projects/hipGRAPH/en/docs-25.05/)</li></ul> |
 
 
-
