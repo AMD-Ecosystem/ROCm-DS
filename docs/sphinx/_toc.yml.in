@@ -3,13 +3,12 @@ subtrees:
 - entries:
   - file: about/release-notes.md
     title: Release notes
+  - file: about/compatibility-matrix.md
+    title: Compatibility matrix
 
 - caption: Install
   entries:
-  - file: install/requirements.rst
-    title: System requirements
   - file: install/install.rst
-    title: Installation instructions
 
 - caption: Components
   entries: 
@@ -19,6 +18,10 @@ subtrees:
     title: hipMM
   - url: https://rocm.docs.amd.com/projects/hipGRAPH/en/latest/
     title: hipGRAPH
+  - url: https://rocm.docs.amd.com/projects/hipRaft/en/latest/
+    title: hipRAFT
+  - url: https://rocm.docs.amd.com/projects/hipVS/en/latest/
+    title: hipVS
 
 - caption: Related content
   entries:
