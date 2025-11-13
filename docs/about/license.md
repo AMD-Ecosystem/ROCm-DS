@@ -20,8 +20,8 @@ licenses. Please review individual repositories for more information.
 <!-- spellcheck-disable -->
 | Component | License |
 |:---------------------|:-------------------------|
-| [hipDF](https://github.com/ROCm-DS/hipDF) | [Apache 2.0](https://github.com/ROCm-DS/hipDF/blob/release/1.0.x/LICENSE) |
-| [hipMM](https://github.com/ROCm-DS/hipMM/) | [Apache 2.0](https://github.com/ROCm-DS/hipMM/blob/release/2.0.x/LICENSE) |
+| [hipDF](https://github.com/ROCm-DS/hipDF) | [Apache 2.0](https://github.com/ROCm-DS/hipDF/blob/release/rocmds-25.10/LICENSE) |
+| [hipMM](https://github.com/ROCm-DS/hipMM/) | [Apache 2.0](https://github.com/ROCm-DS/hipMM/blob/release/rocmds-25.10/LICENSE) |
 | [hipRAFT](https://github.com/ROCm-DS/hipRaft/) | [Apache 2.0](https://github.com/ROCm-DS/hipRaft/blob/release/rocmds-25.10/LICENSE) |
 | [hipVS](https://github.com/ROCm-DS/hipVS/) | [Apache 2.0](https://github.com/ROCm-DS/hipVS/blob/release/rocmds-25.10/LICENSE) |
 | [hipGRAPH](https://github.com/ROCm-DS/hipGRAPH) | [Apache 2.0](https://github.com/ROCm-DS/hipGRAPH/blob/release/1.0.x/LICENSE) |
