@@ -27,9 +27,9 @@ ROCm-DS documentation is organized into the following categories:
 
   .. grid-item-card:: Components
 
-    * `hipDF <https://rocm.docs.amd.com/projects/hipDF/en/latest/>`_
-    * `hipMM <https://rocm.docs.amd.com/projects/hipMM/en/latest/>`_
-    * `hipGRAPH <https://rocm.docs.amd.com/projects/hipGRAPH/en/latest/>`_
+    * `hipDF <https://rocm.docs.amd.com/projects/hipDF/en/docs-25.05/>`_
+    * `hipMM <https://rocm.docs.amd.com/projects/hipMM/en/docs-25.05/>`_
+    * `hipGRAPH <https://rocm.docs.amd.com/projects/hipGRAPH/en/docs-25.05/>`_
 
   .. grid-item-card:: Related Content
 

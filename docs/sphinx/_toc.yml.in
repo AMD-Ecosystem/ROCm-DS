@@ -13,11 +13,11 @@ subtrees:
 
 - caption: Components
   entries: 
-  - url: https://rocm.docs.amd.com/projects/hipDF/en/latest/
+  - url: https://rocm.docs.amd.com/projects/hipDF/en/docs-25.05/
     title: hipDF
-  - url: https://rocm.docs.amd.com/projects/hipMM/en/latest/
+  - url: https://rocm.docs.amd.com/projects/hipMM/en/docs-25.05/
     title: hipMM
-  - url: https://rocm.docs.amd.com/projects/hipGRAPH/en/latest/
+  - url: https://rocm.docs.amd.com/projects/hipGRAPH/en/docs-25.05/
     title: hipGRAPH
 
 - caption: Related content
