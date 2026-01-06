@@ -5,10 +5,10 @@
 .. rocmds-index:
 
 ********************************************************************
-AMD ROCm-DS
+AMD ROCm Data Science documentation
 ********************************************************************
 
-The AMD ROCm™ Data Science Toolkit (ROCm-DS) is an open-source collection of GPU-accelerated libraries designed to empower data scientists,
+The AMD ROCm™ Data Science toolkit (ROCm-DS) is an open-source collection of GPU-accelerated libraries designed to empower data scientists,
 engineers, and researchers to build high-performance data science applications and machine learning workflows on the ROCm platform.
 Built upon the core ROCm foundation, ROCm-DS provides a unified, efficient, and scalable environment for end-to-end data science acceleration.
 
