@@ -50,14 +50,14 @@ ROCm-DS documentation is organized into the following categories:
 
   .. grid-item-card:: Components
 
-    * `hipDF <https://rocm.docs.amd.com/projects/hipDF/en/latest/>`_
-    * `hipMM <https://rocm.docs.amd.com/projects/hipMM/en/latest/>`_
-    * `hipGRAPH <https://rocm.docs.amd.com/projects/hipGRAPH/en/latest/>`_
-    * `hipRAFT <https://rocm.docs.amd.com/projects/hipRaft/en/latest/>`_
-    * `hipVS <https://rocm.docs.amd.com/projects/hipVS/en/latest/>`_
+    * :doc:`hipDF <hipdf:index>`
+    * :doc:`hipMM <hipmm:index>`
+    * :doc:`hipGRAPH <hipgraph:index>`
+    * `hipRAFT <https://rocm.docs.amd.com/projects/hipRaft/en/docs-25.10/index.html>`__
+    * `hipVS <https://rocm.docs.amd.com/projects/hipVS/en/docs-25.10/index.html>`__
 
   .. grid-item-card:: Related Content
 
-    * `Instinct docs <https://instinct.docs.amd.com/latest/>`_
-    * `ROCm-DS blogs <https://instinct.docs.amd.com/latest/data-science/ROCmDS-Blogs.html>`_
+    * `Instinct docs <https://instinct.docs.amd.com/latest/>`__
+    * `ROCm-DS blogs <https://instinct.docs.amd.com/latest/data-science/ROCmDS-Blogs.html>`__
     * :ref:`contributing-to-rocm-ds`
