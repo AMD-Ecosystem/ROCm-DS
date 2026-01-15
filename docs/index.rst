@@ -5,10 +5,10 @@
 .. rocmds-index:
 
 ********************************************************************
-AMD ROCm-DS
+AMD ROCm Data Science documentation
 ********************************************************************
 
-The AMD ROCm™ Data Science Toolkit (ROCm-DS) is an open-source collection of GPU-accelerated libraries designed to empower data scientists,
+The AMD ROCm™ Data Science toolkit (ROCm-DS) is an open-source collection of GPU-accelerated libraries designed to empower data scientists,
 engineers, and researchers to build high-performance data science applications and machine learning workflows on the ROCm platform.
 Built upon the core ROCm foundation, ROCm-DS provides a unified, efficient, and scalable environment for end-to-end data science acceleration.
 
@@ -50,14 +50,14 @@ ROCm-DS documentation is organized into the following categories:
 
   .. grid-item-card:: Components
 
-    * `hipDF <https://rocm.docs.amd.com/projects/hipDF/en/latest/>`_
-    * `hipMM <https://rocm.docs.amd.com/projects/hipMM/en/latest/>`_
-    * `hipGRAPH <https://rocm.docs.amd.com/projects/hipGRAPH/en/latest/>`_
-    * `hipRAFT <https://rocm.docs.amd.com/projects/hipRaft/en/latest/>`_
-    * `hipVS <https://rocm.docs.amd.com/projects/hipVS/en/latest/>`_
+    * :doc:`hipDF <hipdf:index>`
+    * :doc:`hipMM <hipmm:index>`
+    * :doc:`hipGRAPH <hipgraph:index>`
+    * :doc:`hipRAFT <hipraft:index>`
+    * :doc:`hipVS <hipvs:index>`
 
   .. grid-item-card:: Related Content
 
-    * `Instinct docs <https://instinct.docs.amd.com/latest/>`_
-    * `ROCm-DS blogs <https://instinct.docs.amd.com/latest/data-science/ROCmDS-Blogs.html>`_
+    * `Instinct docs <https://instinct.docs.amd.com/latest/>`__
+    * `ROCm-DS blogs <https://instinct.docs.amd.com/latest/data-science/ROCmDS-Blogs.html>`__
     * :ref:`contributing-to-rocm-ds`

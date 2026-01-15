@@ -51,27 +51,27 @@ changes for the components. Click {fab}`github` to go to the component's source 
         </colgroup>
         <tbody class="rocm-ds-components">
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipDF/en/latest/">hipDF</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipDF/en/docs-25.10/">hipDF</a></td>
                 <td>1.0.0b1&nbsp;&Rightarrow;&nbsp;<a href="#hipdf-2-0-0">2.0.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipDF"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipMM/en/latest/">hipMM</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipMM/en/docs-25.10/">hipMM</a></td>
                 <td>1.0.0b1&nbsp;&Rightarrow;&nbsp;<a href="#hipmm-3-0-0">3.0.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipMM"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipGRAPH/en/latest/">hipGRAPH</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipGRAPH/en/docs-25.10/">hipGRAPH</a></td>
                 <td>1.0.0b1</td>
                 <td><a href="https://github.com/ROCm-DS/hipGRAPH"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipRaft/en/latest/">hipRAFT</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipRaft/en/docs-25.10/">hipRAFT</a></td>
                 <td><a href="#hipraft-0-1-0">0.1.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipRaft"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipVS/en/latest/">hipVS</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipVS/en/docs-25.10/">hipVS</a></td>
                 <td><a href="#hipvs-0-1-0">0.1.0</a></td>
                 <td><a href="https://github.com/ROCm-DS/hipVS"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
