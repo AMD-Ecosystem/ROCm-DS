@@ -30,6 +30,8 @@ html_theme_options = {
 }
 extensions = ["rocm_docs"]
 
+external_projects_current_project = "rocm-ds"
+
 # Table of contents
 external_toc_path = "./sphinx/_toc.yml"
 
