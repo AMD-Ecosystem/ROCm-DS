@@ -1,2 +1,2 @@
-rocm-docs-core==1.31.2
+git+https://github.com/ROCm/rocm-docs-core.git@develop#egg=rocm-docs-core
 sphinx-reredirects
