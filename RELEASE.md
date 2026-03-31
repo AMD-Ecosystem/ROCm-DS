@@ -26,7 +26,7 @@ The 26.03 release includes the following major updates and highlights:
 * Major hipDF upgrade to 3.0.0, including API updates, a new `pylibhipdf` Python wrapper compatible with upstream `pylibcudf`, and expanded GPU architecture support. 
 * Major hipMM upgrade to 4.0.0, introducing a precompiled shared library model (`librmm.so`), improved logging integration, enhanced diagnostics, and updated Python packaging. 
 * hipRAFT 1.0.0 and hipVS 1.0.0 updated with new primitives, performance improvements, API changes, and expanded multi-GPU capabilities. 
-* Expanded hardware support, including support for the gfx950 GPU architecture across major libraries, with additional experimental gfx11/gfx12 RDNA support in hipDF. 
+* Expanded hardware support, including support for the gfx950 GPU architecture across major libraries, with additional experimental gfx11xx/gfx12xx RDNA support in hipDF. 
 * ROCm 7.2.1 support across updated components. 
 * Python 3.13 support added in selected components. 
 * Continued support for Python and C++ APIs, helping developers integrate ROCm-DS into analytics, AI, and GPU-accelerated data science workflows. 
@@ -35,7 +35,7 @@ This release advances ROCm-DS toward a more complete platform for distributed, m
 
 ## System requirements
 
-For the 26.03 release, the ROCm-DS components support the ROCm 7.2.1 and ROCm 7.2.0 releases. Refer to the {doc}`Compatibility matrix <compatibility-matrix>` to verify supported AMD Instinct GPUs, Operating Systems, and ROCm versions.
+For the 26.03 release, the ROCm-DS components support the ROCm 7.2.1 and ROCm 7.2.0 releases. Refer to the {doc}`Compatibility matrix <compatibility-matrix>` to verify supported AMD Instinct GPUs, operating systems, and ROCm versions.
 
 ## ROCm-DS components
 
@@ -107,7 +107,7 @@ The following sections describe key changes to ROCm-DS components.
 * Support for ROCm 7.2.1 
 * New `pylibhipdf` wrapper module with Python bindings compatible with upstream `pylibcudf` 
 * Support for the gfx950 GPU architecture 
-* Experimental support for gfx11 and gfx12 RDNA architectures: 
+* Experimental support for gfx11xx and gfx12xx RDNA architectures: 
 
     - gfx1100 
     - gfx1101 
@@ -143,7 +143,7 @@ The following sections describe key changes to ROCm-DS components.
 
 #### Known limitations
 
-* Conda installation is not yet supported for `hipMM` in this release; use pip or build from source. 
+* Conda installation is not supported for `hipMM` . Use `pip` or build from source. 
 
 ### hipRAFT (1.0.0)
 
