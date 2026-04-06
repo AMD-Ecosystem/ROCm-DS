@@ -132,18 +132,14 @@ The following sections describe key changes to ROCm-DS components.
 * Improved downstream build times through precompiled library delivery 
 * New non-blocking HIP stream support via the cuda_stream class 
 * Enhanced out-of-memory diagnostics with clearer failure reporting 
-* Integration with rapids-logger and ROCmDS Logger 
+* Integration with ROCmDS-Logger 
 * Python package support through the new amd-hipmm package and hipmm namespace 
 * Python 3.13 support 
 
 #### Changes 
 
 * Downstream projects must now link against `librmm.so` using `find_package(rmm)` and `rmm::rmm` 
-* The logging API has migrated from `spdlog` to `rapids-logger` 
-
-#### Known limitations
-
-* Conda installation is not supported for `hipMM` . Use `pip` or build from source. 
+* The logging API has migrated from `spdlog` to `rocmds-logger` 
 
 ### hipRAFT (1.0.0)
 
@@ -152,7 +148,6 @@ The following sections describe key changes to ROCm-DS components.
 * Updated to newer upstream 25.10 functionality 
 * ROCm 7.2.1 support 
 * Support for gfx950 
-* New TheRock-based Dockerfile with HIP platform CMake configuration for CI/CD workflows 
 * Added RAFT_CUDA_TRY error-checking support for HIP runtime API calls 
 * Ported NN-Descent graph construction kernel with wavefront-size-64 compatibility 
 * Improved hipBLASLt GEMM device pointer mode handling on AMD GPUs 
