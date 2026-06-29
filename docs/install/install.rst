@@ -15,7 +15,7 @@ System requirements
 
 The following are the ROCm-DS release compatibilities and system requirements: 
 
-* ROCm version: `7.2.0 <https://rocm.docs.amd.com/projects/install-on-linux/en/docs-7.2.0/>`__ and `7.2.1 <https://rocm.docs.amd.com/projects/install-on-linux/en/docs-7.2.1/>`__
+* `ROCm 7.2.3 <https://rocm.docs.amd.com/projects/install-on-linux/en/docs-7.2.3/>`__
 * Operating Systems: Ubuntu 24.04 and 22.04  
 * AMD Instinct GPUs: 
 
