@@ -27,7 +27,7 @@ licenses. Please review individual repositories for more information.
 | [hipGRAPH](https://github.com/ROCm-DS/hipGRAPH) | [Apache 2.0](https://github.com/ROCm-DS/hipGRAPH/blob/release/1.0.x/LICENSE) |
 | [rocGRAPH](https://github.com/ROCm-DS/rocGRAPH) | [Apache 2.0](https://github.com/ROCm-DS/rocGRAPH/blob/release/1.0.x/LICENSE) |
 | [dask-hip](https://github.com/ROCm-DS/dask-hip/) | [Apache 2.0](https://github.com/ROCm-DS/dask-hip/blob/release/rocmds-26.03/LICENSE) |
-| [hip-ucxx](https://github.com/ROCm-DS/hip-ucxx/) | [Apache 2.0](https://github.com/ROCm-DS/hip-ucxx/blob/release/rocmds-26.03/LICENSE) |
+| [hip-ucxx](https://github.com/ROCm-DS/hip-ucxx/) | [BSD-3-Clause license](https://github.com/ROCm-DS/hip-ucxx/blob/release/rocmds-26.03/LICENSE) |
 
 ```{note}
 The following additional terms and conditions apply to your use of ROCm-DS documentation.
