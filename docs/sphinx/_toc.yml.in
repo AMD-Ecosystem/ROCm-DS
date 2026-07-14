@@ -16,7 +16,7 @@ subtrees:
     title: hipDF
   - url: https://rocm.docs.amd.com/projects/hipMM/en/docs-26.03/
     title: hipMM
-  - url: https://rocm.docs.amd.com/projects/hipGRAPH/en/${branch}/
+  - url: https://rocm.docs.amd.com/projects/hipGRAPH/en/26.03/
     title: hipGRAPH
   - url: https://rocm.docs.amd.com/projects/hipRaft/en/docs-26.03/
     title: hipRAFT
