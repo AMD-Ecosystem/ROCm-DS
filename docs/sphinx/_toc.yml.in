@@ -12,15 +12,15 @@ subtrees:
 
 - caption: Components
   entries: 
-  - url: https://rocm.docs.amd.com/projects/hipdf/en/docs-26.03/
+  - url: https://rocm.docs.amd.com/projects/hipDF/en/docs-26.03/
     title: hipDF
   - url: https://rocm.docs.amd.com/projects/hipMM/en/docs-26.03/
     title: hipMM
   - url: https://rocm.docs.amd.com/projects/hipGRAPH/en/${branch}/
     title: hipGRAPH
-  - url: https://rocm.docs.amd.com/projects/hipRAFT/en/docs-26.03/
+  - url: https://rocm.docs.amd.com/projects/hipRaft/en/docs-26.03/
     title: hipRAFT
-  - url: https://rocm.docs.amd.com/projects/hipvs/en/docs-26.03/
+  - url: https://rocm.docs.amd.com/projects/hipVS/en/docs-26.03/
     title: hipVS
   - url: https://rocm.docs.amd.com/projects/dask-hip/en/docs-26.03/
     title: dask-hip
