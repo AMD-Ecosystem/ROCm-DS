@@ -9,7 +9,7 @@ Contributing to ROCm-DS
 *************************
 
 AMD appreciates and values your interest in contributing to the ROCm Data Sciences (ROCm-DS) stack. This collection of libraries — hipDF, hipGRAPH,
-hipMM, hipRAFT, hipVS, dask-hip, and hip-ucxx — is a fork of the RAPIDS® open-source project from NVIDIA and brings high-performance, GPU-accelerated data science,
+hipMM, hipRAFT, and hipVS — is a fork of the RAPIDS® open-source project from NVIDIA and brings high-performance, GPU-accelerated data science,
 graph analytics, mathematical computation, and vector search to the ROCm ecosystem. 
  
 You can contribute in several ways: reporting bugs or requesting new features, improving documentation, performance optimizations,
@@ -27,7 +27,7 @@ providing a transparent and organized way to monitor progress and prioritize wor
 Issue tracking
 --------------
 
-* Use the GitHub Issues tab for each project: hipDF, hipGRAPH, hipMM, hipRAFT, and hipVS, dask-hip, and hip-ucxx.                   
+* Use the GitHub Issues tab for each project — hipDF, hipGRAPH, hipMM, hipRAFT, and hipVS.                   
 * Before opening a new issue, search for existing issues to avoid duplicates. If the issue exists, upvote it and add details or a minimal reproducer.
 * If you’re unsure whether your issue matches an existing one, file your issue and reference the similar issue number. If it is a duplicate,
   it will be closed and tracked through the original issue.
