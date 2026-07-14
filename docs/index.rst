@@ -54,11 +54,11 @@ ROCm-DS documentation is organized into the following categories:
 
   .. grid-item-card:: Components
 
-    * :doc:`hipDF <hipdf:index>`
-    * :doc:`hipMM <hipmm:index>`
-    * :doc:`hipGRAPH <hipgraph:index>`
-    * :doc:`hipRAFT <hipraft:index>`
-    * :doc:`hipVS <hipvs:index>`
+    * `hipDF <https://rocm.docs.amd.com/projects/hipDF/en/latest/>`__
+    * `hipMM <https://rocm.docs.amd.com/projects/hipMM/en/latest/>`__
+    * `hipGRAPH <https://rocm.docs.amd.com/projects/hipGRAPH/en/latest/>`__
+    * `hipRAFT <https://rocm.docs.amd.com/projects/hipRaft/en/latest/>`__
+    * `hipVS <https://rocm.docs.amd.com/projects/hipVS/en/latest/>`__
     * `dask-hip <https://rocm.docs.amd.com/projects/dask-hip/en/latest/>`__
     * `hip-ucxx <https://rocm.docs.amd.com/projects/hip-ucxx/en/latest/>`__
 
