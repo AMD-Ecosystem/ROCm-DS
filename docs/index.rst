@@ -23,15 +23,19 @@ interfaces compatible with existing data science frameworks and APIs.
 
 The ROCm-DS toolkit includes the following components:
 
-* hipDF – A GPU-accelerated DataFrame library offering fast and scalable tabular data manipulation, aggregation, and transformation. hipDF enables high-performance preprocessing, feature engineering, and ETL workflows essential for modern data pipelines. It also supports the acceleration of many existing Pandas workflows with little to no code changes.
+* **hipDF** – A GPU-accelerated DataFrame library offering fast and scalable tabular data manipulation, aggregation, and transformation. hipDF enables high-performance preprocessing, feature engineering, and ETL workflows essential for modern data pipelines. It also supports the acceleration of many existing Pandas workflows with little to no code changes.
 
-* hipGRAPH – Leverages GPU acceleration to process and analyze complex graph structures and networks with speed and precision. hipGRAPH supports diverse graph algorithms—such as centrality, traversal, similarity, sampling, and labeling—and integrates seamlessly with hipDF DataFrames across the ROCm-DS ecosystem.
+* **hipGRAPH** – Leverages GPU acceleration to process and analyze complex graph structures and networks with speed and precision. hipGRAPH supports diverse graph algorithms—such as centrality, traversal, similarity, sampling, and labeling—and integrates seamlessly with hipDF DataFrames across the ROCm-DS ecosystem.
 
-* hipMM – The HIP Memory Manager library provides advanced GPU memory management utilities such as efficient allocation, pooling, and data movement to support the various libraries that form part of ROCm-DS. 
+* **hipMM** – The HIP Memory Manager library provides advanced GPU memory management utilities such as efficient allocation, pooling, and data movement to support the various libraries that form part of ROCm-DS. 
 
-* hipRAFT – Provides a foundational layer of reusable GPU-accelerated primitives for data science and machine learning, including clustering, dimensionality reduction, and statistical operations. hipRAFT serves as the computational backbone for higher-level data science and AI applications.
+* **hipRAFT** – Provides a foundational layer of reusable GPU-accelerated primitives for data science and machine learning, including clustering, dimensionality reduction, and statistical operations. hipRAFT serves as the computational backbone for higher-level data science and AI applications.
 
-* hipVS – A GPU-accelerated vector search library containing a variety of high-performance approximate and exact nearest-neighbor and clustering algorithms. hipVS integrates seamlessly with DataFrames offered through hipDF, to enable support for a wide variety of data science workloads. 
+* **hipVS** – A GPU-accelerated vector search library containing a variety of high-performance approximate and exact nearest-neighbor and clustering algorithms. hipVS integrates seamlessly with DataFrames offered through hipDF, to enable support for a wide variety of data science workloads. 
+
+* **dask-hip** – A library for deploying and managing Dask workers on HIP-enabled AMD GPU systems. dask-hip adds distributed execution capabilities for scaling GPU-accelerated data science workloads across one or more AMD GPUs.
+
+* **hip-ucxx** –  A communication component for distributed GPU workflows on AMD platforms. hip-ucxx complements dask-hip by providing UCXX-based communication support for ROCm environments, helping enable distributed and multi-GPU data science workflows across AMD systems.  
 
 .. note::
 
@@ -55,6 +59,8 @@ ROCm-DS documentation is organized into the following categories:
     * :doc:`hipGRAPH <hipgraph:index>`
     * :doc:`hipRAFT <hipraft:index>`
     * :doc:`hipVS <hipvs:index>`
+    * `dask-hip <https://rocm.docs.amd.com/projects/dask-hip/en/latest/>`__
+    * `hip-ucxx <https://rocm.docs.amd.com/projects/hip-ucxx/en/latest/>`__
 
   .. grid-item-card:: Related Content
 
