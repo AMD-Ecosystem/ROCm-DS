@@ -30,10 +30,10 @@ Installation instructions
 
 Each ROCm-DS 26.03 component must be separately installed as needed. The installation instructions for each component can be found as follows: 
 
-* `hipDF Installation instructions <https://rocm.docs.amd.com/projects/hipdf/en/docs-26.03/install/INSTALL.html>`__
+* `hipDF Installation instructions <https://rocm.docs.amd.com/projects/hipDF/en/docs-26.03/install/INSTALL.html>`__
 * `hipMM Installation instructions <https://rocm.docs.amd.com/projects/hipMM/en/docs-26.03/install/INSTALL.html>`__
 * `hipGRAPH Installation instructions <https://rocm.docs.amd.com/projects/hipGRAPH/en/latest/install/Linux_Install_Guide.html>`__
-* `hipRAFT Installation instructions <https://rocm.docs.amd.com/projects/hipRAFT/en/docs-26.03/install/install.html>`__
-* `hipVS Installation instructions <https://rocm.docs.amd.com/projects/hipvs/en/docs-26.03/install/install.html>`__
+* `hipRAFT Installation instructions <https://rocm.docs.amd.com/projects/hipRaft/en/docs-26.03/install/install.html>`__
+* `hipVS Installation instructions <https://rocm.docs.amd.com/projects/hipVS/en/docs-26.03/install/install.html>`__
 * `dask-hip Installation instructions <https://rocm.docs.amd.com/projects/dask-hip/en/docs-26.03/install/install.html>`__
 * `hip-ucxx Installation instructions <https://rocm.docs.amd.com/projects/hip-ucxx/en/docs-26.03/install/install.html>`__
