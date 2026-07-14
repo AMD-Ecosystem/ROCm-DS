@@ -2,7 +2,7 @@
 
 AMD is pleased to announce the ROCm Data Science Toolkit (ROCm-DS) 26.03 release with major component upgrades, broader hardware enablement, and new distributed computing capabilities for AMD GPU environments. ROCm-DS is an open-source data science toolkit designed to improve the performance of data preparation, analytics, machine learning, and vector search workloads on AMD GPUs. 
 
-With the 26.03 release, ROCm-DS continues to strengthen its software stack while improving portability for users bringing existing GPU data science workflows to AMD hardware. The 26.03 release introduces dask-hip and hip-ucxx as new components, adding foundational support for distributed and multi-GPU workflows on ROCm. In addition, core libraries, including hipDF, hipMM, hipRAFT, and hipVS, have been updated to incorporate newer upstream functionality and support for ROCm 7.2.1. 
+With the 26.03 release, ROCm-DS continues to strengthen its software stack while improving portability for users bringing existing GPU data science workflows to AMD hardware. The 26.03 release introduces dask-hip and hip-ucxx as new components, adding foundational support for distributed and multi-GPU workflows on ROCm. In addition, core libraries, including hipDF, hipMM, hipRAFT, and hipVS, have been updated to incorporate newer upstream functionality and support for ROCm 7.2.3. 
 
 ```{note}
 hipGRAPH remains early access (EA) in ROCm-DS 26.03. 
@@ -27,7 +27,7 @@ The 26.03 release includes the following major updates and highlights:
 * Major hipMM upgrade to 4.0.0, introducing a precompiled shared library model (`librmm.so`), improved logging integration, enhanced diagnostics, and updated Python packaging. 
 * hipRAFT 1.0.0 and hipVS 1.0.0 updated with new primitives, performance improvements, API changes, and expanded multi-GPU capabilities. 
 * Expanded hardware support, including support for the gfx950 GPU architecture across major libraries, with additional experimental gfx11xx/gfx12xx RDNA support in hipDF. 
-* ROCm 7.2.1 support across updated components. 
+* ROCm 7.2.3 support across updated components. 
 * Python 3.13 support added in selected components. 
 * Continued support for Python and C++ APIs, helping developers integrate ROCm-DS into analytics, AI, and GPU-accelerated data science workflows. 
 
