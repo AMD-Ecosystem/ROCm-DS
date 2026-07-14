@@ -35,7 +35,7 @@ This release advances ROCm-DS toward a more complete platform for distributed, m
 
 ## System requirements
 
-For the 26.03 release, the ROCm-DS components support the ROCm 7.2.1 and ROCm 7.2.0 releases. Refer to the {doc}`Compatibility matrix <compatibility-matrix>` to verify supported AMD Instinct GPUs, operating systems, and ROCm versions.
+For the 26.03 release, the ROCm-DS components support the ROCm 7.2.3 release. Refer to the {doc}`Compatibility matrix <compatibility-matrix>` to verify supported AMD Instinct GPUs, operating systems, and ROCm versions.
 
 ## ROCm-DS components
 
@@ -104,7 +104,7 @@ The following sections describe key changes to ROCm-DS components.
 #### Added 
 
 * API alignment with upstream 25.10 functionality 
-* Support for ROCm 7.2.1 
+* Support for ROCm 7.2.3 
 * New `pylibhipdf` wrapper module with Python bindings compatible with upstream `pylibcudf` 
 * Support for the gfx950 GPU architecture 
 * Experimental support for gfx11xx and gfx12xx RDNA architectures: 
@@ -126,7 +126,7 @@ The following sections describe key changes to ROCm-DS components.
 #### Added 
 
 * Updated to newer upstream 25.10 functionality 
-* Support for ROCm 7.2.1 
+* Support for ROCm 7.2.3 
 * Support for the gfx950 GPU architecture 
 * Transition from a header-only library to a shared library model, with core implementations now delivered in librmm.so 
 * Improved downstream build times through precompiled library delivery 
@@ -146,7 +146,7 @@ The following sections describe key changes to ROCm-DS components.
 #### Added
 
 * Updated to newer upstream 25.10 functionality 
-* ROCm 7.2.1 support 
+* ROCm 7.2.3 support 
 * Support for gfx950 
 * Added RAFT_CUDA_TRY error-checking support for HIP runtime API calls 
 * Ported NN-Descent graph construction kernel with wavefront-size-64 compatibility 
@@ -172,7 +172,7 @@ The following sections describe key changes to ROCm-DS components.
 #### Added
 
 * Updated to newer upstream 25.10 functionality 
-* ROCm 7.2.1 support 
+* ROCm 7.2.3 support 
 * Support for gfx950 
 * Enabled multi-GPU algorithms and RCCL configurations 
 * New Composable Kernel (CK) pairwise distance support for: 
@@ -203,7 +203,7 @@ The following sections describe key changes to ROCm-DS components.
 #### Added 
 
 * Initial release of dask-hip 
-* ROCm 7.2.1 support 
+* ROCm 7.2.3 support 
 * Based on upstream 25.10 functionality 
 * Ships as the amd-dask-hip Python package on AMD PyPI 
 * Introduces a `pynvml-to-amdsmi` translation layer so existing dask-cuda logic can operate on AMD GPUs with minimal changes 
@@ -225,7 +225,7 @@ The following sections describe key changes to ROCm-DS components.
 #### Added 
 
 * hip-ucxx is introduced in ROCm-DS 26.03 as a new communication component for distributed GPU workflows on AMD platforms. 
-* ROCm 7.2.1 support 
+* ROCm 7.2.3 support 
 
 ```{note}
 UCXX-based multi-node communication is early access (EA) in ROCm-DS 26.03.
