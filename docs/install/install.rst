@@ -1,17 +1,17 @@
 .. meta::
-    :description: ROCm-DS release compatibility
+    :description: AMD Data Science release compatibility
     :keywords: Data-analytics, RAPIDS, cuDF, cuGraph, RMM, hipDF, hipGraph, hipMM, Pandas, NetworkX, High-Performance Computing, GPU Acceleration, GPU Computing, Parallel Computing, Scalable Data Science, Python
 
 .. _linux-install:
 
 **************************************************************************************
-Installing ROCm-DS
+Installing AMD Data Science
 **************************************************************************************
 
 System requirements
 ===================
 
-The following are the ROCm-DS system requirements: 
+The following are the AMD Data Science system requirements: 
 
 * ROCm version: 7.0.2  
 * Operating Systems: Ubuntu 22.04 
@@ -25,7 +25,7 @@ The following are the ROCm-DS system requirements:
 Installation instructions
 =========================
 
-Each ROCm-DS 25.10 component must be separately installed as needed. The installation instructions for each component can be found as follows: 
+Each AMD Data Science 25.10 component must be separately installed as needed. The installation instructions for each component can be found as follows: 
 
 * `hipDF Installation instructions <https://rocm.docs.amd.com/projects/hipDF/en/latest/install/INSTALL.html>`__
 * `hipMM Installation instructions <https://rocm.docs.amd.com/projects/hipMM/en/latest/install/INSTALL.html>`__

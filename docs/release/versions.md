@@ -1,10 +1,10 @@
 <head>
   <meta charset="UTF-8">
-  <meta name="description" content="ROCm-DS release history">
+  <meta name="description" content="AMD Data Science release history">
   <meta name="keywords" content="documentation, release history, ROCm, AMD">
 </head>
 
-# ROCm-DS release history
+# AMD Data Science release history
 
 | Version | Release date |
 | ------- | ------------ |
