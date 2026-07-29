@@ -10,30 +10,30 @@
 <!-- markdownlint-disable reference-links-images            -->
 <!-- markdownlint-disable no-missing-space-atx              -->
 <!-- spellcheck-disable                                     -->
-# ROCm-DS 25.10 Release notes
+# AMD Data Science 25.10 Release notes
 
-AMD is pleased to announce the general availability (GA) release of the ROCm Data Science Toolkit (ROCm-DS), a comprehensive open-source software collection designed to accelerate data science and machine learning workloads on AMD GPUs. This GA release marks a significant milestone for ROCm-DS as hipDF and hipMM transition to production status. Additionally, it introduces two new production components: hipRAFT and hipVS. The GA release provides an end-to-end GPU-accelerated data science and AI ecosystem.
+AMD is pleased to announce the general availability (GA) release of the AMD Data Science Toolkit, a comprehensive open-source software collection designed to accelerate data science and machine learning workloads on AMD GPUs. This GA release marks a significant milestone for AMD Data Science as hipDF and hipMM transition to production status. Additionally, it introduces two new production components: hipRAFT and hipVS. The GA release provides an end-to-end GPU-accelerated data science and AI ecosystem.
 
 ```{note}
-hipGRAPH remains early access (EA) in ROCm-DS 25.10. 
+hipGRAPH remains early access (EA) in AMD Data Science 25.10. 
 ```
 
-- [ROCm-DS Release highlights](#rocm-ds-release-highlights)
-- [ROCm-DS components](#rocm-ds-components)
+- [AMD Data Science Release highlights](#amd-data-science-release-highlights)
+- [AMD Data Science components](#amd-data-science-components)
 
-## ROCm-DS release highlights
+## AMD Data Science release highlights
 
-ROCm-DS 25.10 is a general availability release providing a production-ready foundation for GPU-accelerated data science on AMD hardware, with continued development focused on expanded capabilities and performance optimization in future versions. This release includes the following major updates and highlights:
+AMD Data Science 25.10 is a general availability release providing a production-ready foundation for GPU-accelerated data science on AMD hardware, with continued development focused on expanded capabilities and performance optimization in future versions. This release includes the following major updates and highlights:
 
 * Transition of hipDF and hipMM from early access to production-ready status.
 * Introduction of hipRAFT and hipVS for advanced data science, machine learning, and vector similarity workloads.
-* Alignment of all ROCm-DS components with RAPIDS 25.02, ensuring compatibility and feature parity.
+* Alignment of all AMD Data Science components with RAPIDS 25.02, ensuring compatibility and feature parity.
 * Enhanced performance, memory efficiency, and API stability across all components.
 * Continued support for both Python and C++ APIs, enabling integration with popular frameworks such as Pandas and other RAPIDS-compatible tools.
 
-## ROCm-DS components
+## AMD Data Science components
 
-The following table lists ROCm-DS components versions for the 25.10 release, including any version
+The following table lists AMD Data Science components versions for the 25.10 release, including any version
 changes for the components. Click {fab}`github` to go to the component's source code on GitHub.
 
 <div class="pst-scrollable-table-container">
@@ -53,27 +53,27 @@ changes for the components. Click {fab}`github` to go to the component's source 
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/hipDF/en/docs-25.10/">hipDF</a></td>
                 <td>1.0.0b1&nbsp;&Rightarrow;&nbsp;<a href="#hipdf-2-0-0">2.0.0</a></td>
-                <td><a href="https://github.com/ROCm-DS/hipDF"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipDF"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/hipMM/en/docs-25.10/">hipMM</a></td>
                 <td>1.0.0b1&nbsp;&Rightarrow;&nbsp;<a href="#hipmm-3-0-0">3.0.0</a></td>
-                <td><a href="https://github.com/ROCm-DS/hipMM"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipMM"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/hipGRAPH/en/docs-25.10/">hipGRAPH</a></td>
                 <td>1.0.0b1</td>
-                <td><a href="https://github.com/ROCm-DS/hipGRAPH"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipGRAPH"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/hipRaft/en/docs-25.10/">hipRAFT</a></td>
                 <td><a href="#hipraft-0-1-0">0.1.0</a></td>
-                <td><a href="https://github.com/ROCm-DS/hipRaft"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipRaft"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/hipVS/en/docs-25.10/">hipVS</a></td>
                 <td><a href="#hipvs-0-1-0">0.1.0</a></td>
-                <td><a href="https://github.com/ROCm-DS/hipVS"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipVS"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>
@@ -81,7 +81,7 @@ changes for the components. Click {fab}`github` to go to the component's source 
 
 ## Detailed component Changelogs
 
-The following sections describe key changes to ROCm-DS components.
+The following sections describe key changes to AMD Data Science components.
 
 ### hipDF (2.0.0)
 
