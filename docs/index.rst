@@ -50,11 +50,11 @@ AMD Data Science documentation is organized into the following categories:
 
   .. grid-item-card:: Components
 
-    * :doc:`hipDF <hipdf:index>`
-    * :doc:`hipMM <hipmm:index>`
-    * :doc:`hipGRAPH <hipgraph:index>`
-    * :doc:`hipRAFT <hipraft:index>`
-    * :doc:`hipVS <hipvs:index>`
+    * `hipDF <https://rocm.docs.amd.com/projects/hipDF/en/docs-25.10/>`__
+    * `hipMM <https://rocm.docs.amd.com/projects/hipMM/en/docs-25.10/>`__
+    * `hipGRAPH <https://rocm.docs.amd.com/projects/hipGRAPH/en/docs-25.10/>`__
+    * `hipRAFT <https://rocm.docs.amd.com/projects/hipRaft/en/docs-25.10/>`__
+    * `hipVS <https://rocm.docs.amd.com/projects/hipVS/en/docs-25.10/>`__
 
   .. grid-item-card:: Related Content
 
