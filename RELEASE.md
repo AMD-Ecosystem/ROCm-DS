@@ -31,7 +31,7 @@ The 26.03 release includes the following major updates and highlights:
 * Python 3.13 support added in selected components. 
 * Continued support for Python and C++ APIs, helping developers integrate ROCm-DS into analytics, AI, and GPU-accelerated data science workflows. 
 
-This release advances ROCm-DS toward a more complete platform for distributed, multi-GPU, and large-scale data science workloads on AMD GPUs. 
+This release advances AMD Data Science toward a more complete platform for distributed, multi-GPU, and large-scale data science workloads on AMD GPUs. 
 
 ## System requirements
 
