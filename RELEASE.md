@@ -13,7 +13,7 @@ hipGRAPH remains early access (EA) in AMD Data Science 26.03.
 - [AMD Data Science components](#amd-data-science-components)
 - [Detailed component Changelogs](#detailed-component-changelogs)
 
-## ROCm-DS release highlights
+## AMD Data Science release highlights
 
 The 26.03 release includes the following major updates and highlights: 
 
