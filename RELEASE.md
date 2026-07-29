@@ -5,7 +5,7 @@ AMD is pleased to announce the AMD Data Science Toolkit 26.03 release with major
 With the 26.03 release, AMD Data Science continues to strengthen its software stack while improving portability for users bringing existing GPU data science workflows to AMD hardware. The 26.03 release introduces dask-hip and hip-ucxx as new components, adding foundational support for distributed and multi-GPU workflows on ROCm. In addition, core libraries, including hipDF, hipMM, hipRAFT, and hipVS, have been updated to incorporate newer upstream functionality and support for ROCm 7.2.3. 
 
 ```{note}
-hipGRAPH remains early access (EA) in ROCm-DS 26.03. 
+hipGRAPH remains early access (EA) in AMD Data Science 26.03. 
 ```
 
 - [ROCm-DS Release highlights](#rocm-ds-release-highlights)
