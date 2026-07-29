@@ -35,7 +35,7 @@ This release advances AMD Data Science toward a more complete platform for distr
 
 ## System requirements
 
-For the 26.03 release, the ROCm-DS components support the ROCm 7.2.3 release. Refer to the {doc}`Compatibility matrix <compatibility-matrix>` to verify supported AMD Instinct GPUs, operating systems, and ROCm versions.
+For the 26.03 release, the AMD Data Science components support the ROCm 7.2.3 release. Refer to the {doc}`Compatibility matrix <compatibility-matrix>` to verify supported AMD Instinct GPUs, operating systems, and ROCm versions.
 
 ## ROCm-DS components
 
