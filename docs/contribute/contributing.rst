@@ -1,27 +1,27 @@
 .. meta::
-    :description: ROCm-DS release compatibility
+    :description: contributing to AMD Data Science
     :keywords: Data-analytics, RAPIDS, cuDF, cuGraph, RMM, hipDF, hipGRAPH, hipMM, Pandas, NetworkX, High-Performance Computing, GPU Acceleration, GPU Computing, Parallel Computing, Scalable Data Science, Python
 
 .. _contributing-to-rocm-ds:
 
-*************************
-Contributing to ROCm-DS
-*************************
+*********************************
+Contributing to AMD Data Science
+*********************************
 
-AMD appreciates and values your interest in contributing to the ROCm Data Sciences (ROCm-DS) stack. This collection of libraries — hipDF, hipGRAPH,
+AMD appreciates and values your interest in contributing to the AMD Data Sciences stack. This collection of libraries — hipDF, hipGRAPH,
 hipMM, hipRAFT, hipVS, dask-hip, and hip-ucxx — is a fork of the RAPIDS® open-source project from NVIDIA and brings high-performance, GPU-accelerated data science,
 graph analytics, mathematical computation, and vector search to the ROCm ecosystem. 
  
 You can contribute in several ways: reporting bugs or requesting new features, improving documentation, performance optimizations,
-porting functionality from equivalent CUDA-based libraries, writing or improving tests.  If you want to contribute to our ROCm-DS
+porting functionality from equivalent CUDA-based libraries, writing or improving tests.  If you want to contribute to our AMD Data Science
 repositories, review the guidance below to help ensure your contributions are accepted. 
 
 Development workflow
 ====================
 
-The ROCm-DS project uses GitHub to host the code, collaborate within the community, and manage version control. The project relies on pull requests
+The AMD Data Science project uses GitHub to host the code, collaborate within the community, and manage version control. The project relies on pull requests
 for all changes within the repositories, ensuring that contributions are reviewed and discussed before being merged into the main codebase. This
-helps maintain code quality and consistency. The ROCm-DS project uses GitHub issues to track bugs, feature requests, and other-project related tasks,
+helps maintain code quality and consistency. The AMD Data Science project uses GitHub issues to track bugs, feature requests, and other-project related tasks,
 providing a transparent and organized way to monitor progress and prioritize work. 
 
 Issue tracking
@@ -99,6 +99,6 @@ Pull Request Guidelines
 Thank you for contributing
 ==========================
 
-AMD and the ROCm-DS community appreciate your time, effort, and expertise. Every contribution, whether big or small, plays a vital role in making the project
+AMD and the Data Science community appreciate your time, effort, and expertise. Every contribution, whether big or small, plays a vital role in making the project
 better and more impactful to the entire community. Your involvement helps drive innovation, enhance the quality of the software, and ensures
-the continued success of ROCm-DS. We look forward to collaborating with you and are excited to see the positive changes you'll bring to the project!
+the continued success of AMD Data Science. We look forward to collaborating with you and are excited to see the positive changes you'll bring to the project!

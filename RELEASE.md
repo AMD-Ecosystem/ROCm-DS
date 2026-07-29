@@ -1,19 +1,19 @@
 # ROCm-DS 26.03 Release notes
 
-AMD is pleased to announce the ROCm Data Science Toolkit (ROCm-DS) 26.03 release with major component upgrades, broader hardware enablement, and new distributed computing capabilities for AMD GPU environments. ROCm-DS is an open-source data science toolkit designed to improve the performance of data preparation, analytics, machine learning, and vector search workloads on AMD GPUs. 
+AMD is pleased to announce the AMD Data Science Toolkit 26.03 release with major component upgrades, broader hardware enablement, and new distributed computing capabilities for AMD GPU environments. AMD Data Science is an open-source data science toolkit designed to improve the performance of data preparation, analytics, machine learning, and vector search workloads on AMD GPUs. 
 
-With the 26.03 release, ROCm-DS continues to strengthen its software stack while improving portability for users bringing existing GPU data science workflows to AMD hardware. The 26.03 release introduces dask-hip and hip-ucxx as new components, adding foundational support for distributed and multi-GPU workflows on ROCm. In addition, core libraries, including hipDF, hipMM, hipRAFT, and hipVS, have been updated to incorporate newer upstream functionality and support for ROCm 7.2.3. 
+With the 26.03 release, AMD Data Science continues to strengthen its software stack while improving portability for users bringing existing GPU data science workflows to AMD hardware. The 26.03 release introduces dask-hip and hip-ucxx as new components, adding foundational support for distributed and multi-GPU workflows on ROCm. In addition, core libraries, including hipDF, hipMM, hipRAFT, and hipVS, have been updated to incorporate newer upstream functionality and support for ROCm 7.2.3. 
 
 ```{note}
-hipGRAPH remains early access (EA) in ROCm-DS 26.03. 
+hipGRAPH remains early access (EA) in AMD Data Science 26.03. 
 ```
 
-- [ROCm-DS Release highlights](#rocm-ds-release-highlights)
+- [AMD Data Science Release highlights](#amd-data-science-release-highlights)
 - [System requirements](#system-requirements)
-- [ROCm-DS components](#rocm-ds-components)
+- [AMD Data Science components](#amd-data-science-components)
 - [Detailed component Changelogs](#detailed-component-changelogs)
 
-## ROCm-DS release highlights
+## AMD Data Science release highlights
 
 The 26.03 release includes the following major updates and highlights: 
 
@@ -31,13 +31,13 @@ The 26.03 release includes the following major updates and highlights:
 * Python 3.13 support added in selected components. 
 * Continued support for Python and C++ APIs, helping developers integrate ROCm-DS into analytics, AI, and GPU-accelerated data science workflows. 
 
-This release advances ROCm-DS toward a more complete platform for distributed, multi-GPU, and large-scale data science workloads on AMD GPUs. 
+This release advances AMD Data Science toward a more complete platform for distributed, multi-GPU, and large-scale data science workloads on AMD GPUs. 
 
 ## System requirements
 
-For the 26.03 release, the ROCm-DS components support the ROCm 7.2.3 release. Refer to the {doc}`Compatibility matrix <compatibility-matrix>` to verify supported AMD Instinct GPUs, operating systems, and ROCm versions.
+For the 26.03 release, the AMD Data Science components support the ROCm 7.2.3 release. Refer to the {doc}`Compatibility matrix <compatibility-matrix>` to verify supported AMD Instinct GPUs, operating systems, and ROCm versions.
 
-## ROCm-DS components
+## AMD Data Science components
 
 The following table lists ROCm-DS components versions for the 26.03 release, including any version
 changes. Click {fab}`github` to go to the component's source code on GitHub.
@@ -57,39 +57,39 @@ changes. Click {fab}`github` to go to the component's source code on GitHub.
         </colgroup>
         <tbody class="rocm-ds-components">
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipdf-internal/en/docs-rocmds-26.03/">hipDF</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipdf/en/docs-26.03/">hipDF</a></td>
                 <td>2.0.0&nbsp;&Rightarrow;&nbsp;<a href="#hipdf-3-0-0">3.0.0</a></td>
-                <td><a href="https://github.com/ROCm-DS/hipDF"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipDF"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipMM-internal/en/docs-rocmds-26.03/">hipMM</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipMM/en/docs-26.03/">hipMM</a></td>
                 <td>3.0.0&nbsp;&Rightarrow;&nbsp;<a href="#hipmm-4-0-0">4.0.0</a></td>
-                <td><a href="https://github.com/ROCm-DS/hipMM"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipMM"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipGRAPH/en/docs-25.10/">hipGRAPH</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipGRAPH/en/docs-26.03/">hipGRAPH</a></td>
                 <td>1.0.0b1</td>
-                <td><a href="https://github.com/ROCm-DS/hipGRAPH"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipGRAPH"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipRAFT-internal/en/amd-integration/">hipRAFT</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipRAFT/en/docs-26.03/">hipRAFT</a></td>
                 <td>0.1.0&nbsp;&Rightarrow;&nbsp;<a href="#hipraft-1-0-0">1.0.0</a></td>
-                <td><a href="https://github.com/ROCm-DS/hipRaft"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipRaft"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipvs-internal/en/amd-integration/">hipVS</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipvs/en/docs-26.03/">hipVS</a></td>
                 <td>0.1.0&nbsp;&Rightarrow;&nbsp;<a href="#hipvs-1-0-0">1.0.0</a></td>
-                <td><a href="https://github.com/ROCm-DS/hipVS"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipVS"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/dask-hip-internal/en/dev-suphilip-add_amd_documentation/">dask-hip</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/dask-hip/en/docs-26.03/">dask-hip</a></td>
                 <td><a href="#dask-hip-1-0-0">1.0.0</a></td>
-                <td><a href="https://github.com/AMD-AIOSS/dask-hip"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/dask-hip"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hip-ucxx-internal/en/dev-suphilip-add-amd-docs/">hip-ucxx</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hip-ucxx-internal/en/docs-26.03/">hip-ucxx</a></td>
                 <td><a href="#hip-ucxx-0-1-0">0.1.0</a></td>
-                <td><a href="https://github.com/AMD-AIOSS/hip-ucxx"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hip-ucxx"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>
