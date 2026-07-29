@@ -8,7 +8,7 @@ With the 26.03 release, AMD Data Science continues to strengthen its software st
 hipGRAPH remains early access (EA) in AMD Data Science 26.03. 
 ```
 
-- [ROCm-DS Release highlights](#rocm-ds-release-highlights)
+- [AMD Data Science Release highlights](#amd-data-science-release-highlights)
 - [System requirements](#system-requirements)
 - [ROCm-DS components](#rocm-ds-components)
 - [Detailed component Changelogs](#detailed-component-changelogs)
