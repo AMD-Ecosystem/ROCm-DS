@@ -10,26 +10,26 @@
 <!-- markdownlint-disable reference-links-images            -->
 <!-- markdownlint-disable no-missing-space-atx              -->
 <!-- spellcheck-disable                                     -->
-# ROCm-DS 25.05 Release notes
+# AMD Data Science 25.05 Release notes
 
-We are excited to announce the early access release of ROCm-DS, a new software toolkit
+We are excited to announce the early access release of AMD Data Science, a new software toolkit
 designed to accelerate data science workloads on selected AMD Instinct GPUs. This release serves
-as a preview of the capabilities that will be enabled by future ROCm-DS releases and is
+as a preview of the capabilities that will be enabled by future releases and is
 not intended for production workloads. Below, you'll find a detailed summary of the key
-highlights for ROCm-DS 25.05.
+highlights for AMD Data Science 25.05.
 
-- [ROCm-DS Release highlights](#release-highlights)
-- [ROCm-DS components](#rocm-ds-components)
+- [Release highlights](#release-highlights)
+- [AMD Data Science components](#amd-data-science-components)
 
-## ROCm-DS release highlights
+## Release highlights
 
-ROCm-DS is a GPU-accelerated data science library, similar to the NVIDIA RAPIDS software collection. The early access release includes two libraries. hipDF is an accelerated DataFrame library that enables large-scale data processing and manipulation, based on the RAPIDS cuDF library. hipGraph is an accelerated graph marshalling library which allows you to build, analyze, and manipulate complex graphs and networks, and is based on the RAPIDS cuGraph library.
+AMD Data Science is a GPU-accelerated data science library, similar to the NVIDIA RAPIDS software collection. The early access release includes two libraries. hipDF is an accelerated DataFrame library that enables large-scale data processing and manipulation, based on the RAPIDS cuDF library. hipGraph is an accelerated graph marshalling library which allows you to build, analyze, and manipulate complex graphs and networks, and is based on the RAPIDS cuGraph library.
 
 The 25.05 release is a technology preview and is not intended for production workloads. The individual components are based on older versions of their RAPIDS counterparts and have not been fully optimized.
 
-## ROCm-DS components
+## AMD Data Science components
 
-The following table lists the versions of ROCm-DS components for the current release. 
+The following table lists the versions of components for the current release. 
 Click the component name to go to the component's source code on GitHub.
 
 <div class="pst-scrollable-table-container">
@@ -47,19 +47,19 @@ Click the component name to go to the component's source code on GitHub.
         </colgroup>
         <tbody class="rocm-components-libs rocm-components-ml">
             <tr>
-                <td><a href="https://github.com/ROCm-DS/hipDF">hipDF</a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipDF">hipDF</a></td>
                 <td>1.0.0b1</td>
-                <td><a href="https://github.com/ROCm-DS/hipDF"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipDF"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://github.com/ROCm-DS/hipMM">hipMM</a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipMM">hipMM</a></td>
                 <td>1.0.0b1</td>
-                <td><a href="https://github.com/ROCm-DS/hipMM"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipMM"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://github.com/ROCm-DS/hipGRAPH">hipGRAPH</a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipGRAPH">hipGRAPH</a></td>
                 <td>1.0.0b1</td>
-                <td><a href="https://github.com/ROCm-DS/hipGRAPH"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/hipGRAPH"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>

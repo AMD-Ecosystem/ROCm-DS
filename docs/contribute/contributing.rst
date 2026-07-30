@@ -1,19 +1,19 @@
 .. meta::
-    :description: ROCm-DS release compatibility
+    :description: AMD Data Science release compatibility
     :keywords: Data-analytics, RAPIDS, cuDF, cuGraph, RMM, hipDF, hipGraph, hipMM, Pandas, NetworkX, High-Performance Computing, GPU Acceleration, GPU Computing, Parallel Computing, Scalable Data Science, Python
 
 .. _contributing-to-rocm-ds:
 
-*************************
-Contributing to ROCm-DS
-*************************
+********************************
+Contributing to AMD Data Science
+********************************
 
-AMD welcomes contributions from the community to ROCm-DS and its components. Whether those contributions are bug reports, bug fixes,
+AMD welcomes contributions from the community to AMD Data Science and its components. Whether those contributions are bug reports, bug fixes,
 documentation additions, performance notes, or other improvements, we value collaboration with our users. We can build
 better solutions together. Please follow these details to help ensure your contributions will be successfully accepted.
 
 Our code contribution guidelines closely follow the model of `GitHub pull-requests <https://help.github.com/articles/using-pull-requests/>`_. 
-Pull requests should be made against the ``develop`` branch in the ROCm-DS components.
+Pull requests should be made against the ``develop`` branch in the AMD Data Science components.
 
 Issue Discussion
 ================
@@ -36,7 +36,7 @@ Use the GitHub Issues tab for issue notification.
 Acceptance Criteria
 ===================
 
-With ROCm-DS we are interested in contributions that:
+With AMD Data Science we are interested in contributions that:
 
 * Fix bugs, improve documentation, enhance testing, and reduce complexity.
 * Improve the performance of existing routines.
@@ -49,7 +49,7 @@ performance considerations. We encourage contributors to leverage the GitHub "Is
 Exceptions
 ----------
 
-ROCm-DS places a heavy emphasis on being high performance. Because of this, contributions that add new routines (or that modify existing routines)
+AMD Data Science places a heavy emphasis on being high performance. Because of this, contributions that add new routines (or that modify existing routines)
 must do so from the perspective that they offer high performance in relation to the hardware they are run on.
 
 Additionally, when adding new routines, these routines must offer enough value to enough users to be deemed worth including. Because compile times,
@@ -59,7 +59,7 @@ too niche or specialized to be worth including.
 Code Structure
 ==============
 
-The following is the structure of ROCm-DS library in the GitHub repository.
+The following is the structure of AMD Data Science library in the GitHub repository.
 
 * The ``library/include/`` directory contains the header files (which itself includes headers
   defining the public API). The ``library/include/`` directory also contains the headers for all public types.
@@ -98,7 +98,7 @@ When you create a pull request, you should target the default branch. Our curren
 Deliverables
 ------------
 
-When raising a PR in ROCm-DS, here are some important things to include:
+When raising a PR in AMD Data Science, here are some important things to include:
 
 1. For each new file in the repository, include the following licensing header
 and adjust the date to the current year. When simply modifying a file, the date should
@@ -151,7 +151,7 @@ This typically involves adding the following files:
 Process
 -------
 
-When a PR is raised targeting the develop branch in ROCm-DS, CI will be automatically triggered. This will:
+When a PR is raised targeting the develop branch in AMD Data Science, CI will be automatically triggered. This will:
 
 * Test that the PR passes static analysis (that is, ensure clang formatting rules have been followed).
 * Test that the documentation can be properly built
