@@ -57,7 +57,7 @@ changes. Click {fab}`github` to go to the component's source code on GitHub.
         </colgroup>
         <tbody class="rocm-ds-components">
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipdf/en/docs-26.03/">hipDF</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipDF/en/docs-26.03/">hipDF</a></td>
                 <td>2.0.0&nbsp;&Rightarrow;&nbsp;<a href="#hipdf-3-0-0">3.0.0</a></td>
                 <td><a href="https://github.com/AMD-Ecosystem/hipDF"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
@@ -72,12 +72,12 @@ changes. Click {fab}`github` to go to the component's source code on GitHub.
                 <td><a href="https://github.com/AMD-Ecosystem/hipGRAPH"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipRAFT/en/docs-26.03/">hipRAFT</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipRaft/en/docs-26.03/">hipRAFT</a></td>
                 <td>0.1.0&nbsp;&Rightarrow;&nbsp;<a href="#hipraft-1-0-0">1.0.0</a></td>
                 <td><a href="https://github.com/AMD-Ecosystem/hipRaft"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipvs/en/docs-26.03/">hipVS</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hipVS/en/docs-26.03/">hipVS</a></td>
                 <td>0.1.0&nbsp;&Rightarrow;&nbsp;<a href="#hipvs-1-0-0">1.0.0</a></td>
                 <td><a href="https://github.com/AMD-Ecosystem/hipVS"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
@@ -87,7 +87,7 @@ changes. Click {fab}`github` to go to the component's source code on GitHub.
                 <td><a href="https://github.com/AMD-Ecosystem/dask-hip"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hip-ucxx-internal/en/docs-26.03/">hip-ucxx</a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/hip-ucxx/en/docs-26.03/">hip-ucxx</a></td>
                 <td><a href="#hip-ucxx-0-1-0">0.1.0</a></td>
                 <td><a href="https://github.com/AMD-Ecosystem/hip-ucxx"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
