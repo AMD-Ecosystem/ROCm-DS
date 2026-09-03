@@ -4,7 +4,7 @@
   <meta name="keywords" content="documentation, release history, ROCm, AMD">
 </head>
 
-# ROCm-DS release history
+# AMD Data Science release history
 
 | Version | Release date |
 | ------- | ------------ |

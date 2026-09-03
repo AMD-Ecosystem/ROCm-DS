@@ -1,4 +1,4 @@
-# ROCm-DS 26.03 Release notes
+# AMD Data Science 26.03 Release notes
 
 AMD is pleased to announce the AMD Data Science Toolkit 26.03 release with major component upgrades, broader hardware enablement, and new distributed computing capabilities for AMD GPU environments. AMD Data Science is an open-source data science toolkit designed to improve the performance of data preparation, analytics, machine learning, and vector search workloads on AMD GPUs. 
 
@@ -29,7 +29,7 @@ The 26.03 release includes the following major updates and highlights:
 * Expanded hardware support, including support for the gfx950 GPU architecture across major libraries, with additional experimental gfx11xx/gfx12xx RDNA support in hipDF. 
 * ROCm 7.2.3 support across updated components. 
 * Python 3.13 support added in selected components. 
-* Continued support for Python and C++ APIs, helping developers integrate ROCm-DS into analytics, AI, and GPU-accelerated data science workflows. 
+* Continued support for Python and C++ APIs, helping developers integrate AMD Data Science into analytics, AI, and GPU-accelerated data science workflows. 
 
 This release advances AMD Data Science toward a more complete platform for distributed, multi-GPU, and large-scale data science workloads on AMD GPUs. 
 
@@ -39,7 +39,7 @@ For the 26.03 release, the AMD Data Science components support the ROCm 7.2.3 re
 
 ## AMD Data Science components
 
-The following table lists ROCm-DS components versions for the 26.03 release, including any version
+The following table lists AMD Data Science components versions for the 26.03 release, including any version
 changes. Click {fab}`github` to go to the component's source code on GitHub.
 
 <div class="pst-scrollable-table-container">
@@ -55,7 +55,7 @@ changes. Click {fab}`github` to go to the component's source code on GitHub.
             <col span="1">
             <col span="1">
         </colgroup>
-        <tbody class="rocm-ds-components">
+        <tbody class="amd-ds-components">
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/hipDF/en/docs-26.03/">hipDF</a></td>
                 <td>2.0.0&nbsp;&Rightarrow;&nbsp;<a href="#hipdf-3-0-0">3.0.0</a></td>
@@ -97,7 +97,7 @@ changes. Click {fab}`github` to go to the component's source code on GitHub.
 
 ## Detailed component Changelogs
 
-The following sections describe key changes to ROCm-DS components.
+The following sections describe key changes to AMD Data Science components.
 
 ### hipDF (3.0.0)
 
@@ -224,9 +224,9 @@ The following sections describe key changes to ROCm-DS components.
 
 #### Added 
 
-* hip-ucxx is introduced in ROCm-DS 26.03 as a new communication component for distributed GPU workflows on AMD platforms. 
+* hip-ucxx is introduced in AMD Data Science 26.03 as a new communication component for distributed GPU workflows on AMD platforms. 
 * ROCm 7.2.3 support 
 
 ```{note}
-UCXX-based multi-node communication is early access (EA) in ROCm-DS 26.03.
+UCXX-based multi-node communication is early access (EA) in AMD Data Science 26.03.
 ```
