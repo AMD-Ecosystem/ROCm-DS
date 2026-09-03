@@ -30,5 +30,5 @@ Each AMD Data Science 25.10 component must be separately installed as needed. Th
 * `hipDF Installation instructions <https://rocm.docs.amd.com/projects/hipDF/en/docs-25.10/install/INSTALL.html>`__
 * `hipMM Installation instructions <https://rocm.docs.amd.com/projects/hipMM/en/docs-25.10/install/INSTALL.html>`__
 * `hipGRAPH Installation instructions <https://rocm.docs.amd.com/projects/hipGRAPH/en/docs-25.10/install/Linux_Install_Guide.html>`__
-* `hipRAFT Installation instructions <https://rocm.docs.amd.com/projects/hipRaft/en/latest/docs-25.10/install.html>`__
-* `hipVS Installation instructions <https://rocm.docs.amd.com/projects/hipVS/en/latest/docs-25.10/install.html>`__
+* `hipRAFT Installation instructions <https://rocm.docs.amd.com/projects/hipRaft/en/docs-25.10/install.html>`__
+* `hipVS Installation instructions <https://rocm.docs.amd.com/projects/hipVS/en/docs-25.10/install.html>`__
