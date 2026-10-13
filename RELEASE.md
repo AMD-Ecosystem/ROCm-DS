@@ -1,46 +1,37 @@
-# AMD Data Science 26.03 Release notes
+# AMD Data Science 26.07 release notes
 
-AMD is pleased to announce the AMD Data Science Toolkit 26.03 release with major component upgrades, broader hardware enablement, and new distributed computing capabilities for AMD GPU environments. AMD Data Science is an open-source data science toolkit designed to improve the performance of data preparation, analytics, machine learning, and vector search workloads on AMD GPUs. 
+AMD is pleased to announce the AMD Data Science toolkit 26.07 release with the
+introduction of **rocOpt** for decision optimization on AMD Instinct GPUs. rocOpt
+is the AMD ROCm port of the open-source GPU-accelerated optimization engine
+(based on cuOpt `26.02.00`, `branch-26.02`). rocOpt solves mixed integer
+linear programming (MILP), linear programming (LP), quadratic programming (QP),
+and vehicle routing problems (VRP) on AMD GPUs.
 
-With the 26.03 release, AMD Data Science continues to strengthen its software stack while improving portability for users bringing existing GPU data science workflows to AMD hardware. The 26.03 release introduces dask-hip and hip-ucxx as new components, adding foundational support for distributed and multi-GPU workflows on ROCm. In addition, core libraries, including hipDF, hipMM, hipRAFT, and hipVS, have been updated to incorporate newer upstream functionality and support for ROCm 7.2.3. 
-
-```{note}
-hipGRAPH remains early access (EA) in AMD Data Science 26.03. 
-```
-
-- [AMD Data Science Release highlights](#amd-data-science-release-highlights)
+- [AMD Data Science release highlights](#amd-data-science-release-highlights)
 - [System requirements](#system-requirements)
 - [AMD Data Science components](#amd-data-science-components)
-- [Detailed component Changelogs](#detailed-component-changelogs)
+- [Detailed component changelog](#detailed-component-changelog)
 
 ## AMD Data Science release highlights
 
-The 26.03 release includes the following major updates and highlights: 
+The 26.07 release introduces rocOpt for decision optimization:
 
-* Updated core libraries, with key components aligned to newer upstream 25.10 APIs and functionality. 
-* New distributed computing components: 
-
-    - dask-hip, AMD’s port of dask-cuda, for deploying and managing Dask workers on HIP-enabled GPU systems. 
-    - hip-ucxx, adding UCXX-based communication support for distributed GPU workflows on ROCm. 
-
-* Major hipDF upgrade to 3.0.0, including API updates, a new `pylibhipdf` Python wrapper compatible with upstream `pylibcudf`, and expanded GPU architecture support. 
-* Major hipMM upgrade to 4.0.0, introducing a precompiled shared library model (`librmm.so`), improved logging integration, enhanced diagnostics, and updated Python packaging. 
-* hipRAFT 1.0.0 and hipVS 1.0.0 updated with new primitives, performance improvements, API changes, and expanded multi-GPU capabilities. 
-* Expanded hardware support, including support for the gfx950 GPU architecture across major libraries, with additional experimental gfx11xx/gfx12xx RDNA support in hipDF. 
-* ROCm 7.2.3 support across updated components. 
-* Python 3.13 support added in selected components. 
-* Continued support for Python and C++ APIs, helping developers integrate AMD Data Science into analytics, AI, and GPU-accelerated data science workflows. 
-
-This release advances AMD Data Science toward a more complete platform for distributed, multi-GPU, and large-scale data science workloads on AMD GPUs. 
+- Initial ROCm/HIP port of the cuOpt engine running natively on AMD Instinct GPUs.
+- Multi-architecture fat binary built by default for **gfx942 (MI300X / CDNA3)**
+and **gfx950 (MI350X / MI355X)**. HIP selects the correct code object at load
+time, so a single image runs on either part.
+- Full C, C++, Python, and Server API surface carried over from cuOpt.
+- The container image builds on ROCm 7.1.1 and runs on the ROCm 7.2.3 runtime, avoiding
+a known code generation issue on gfx942 while providing the updated runtime to enable
+use with other AMD Data Science components.
 
 ## System requirements
 
-For the 26.03 release, the AMD Data Science components support the ROCm 7.2.3 release. Refer to the {doc}`Compatibility matrix <compatibility-matrix>` to verify supported AMD Instinct GPUs, operating systems, and ROCm versions.
+For the 26.07 release, the AMD Data Science components support the ROCm 7.2.3 release. Refer to the {doc}`Compatibility matrix <compatibility-matrix>` to verify supported AMD Instinct GPUs, operating systems, and ROCm versions.
 
 ## AMD Data Science components
 
-The following table lists AMD Data Science components versions for the 26.03 release, including any version
-changes. Click {fab}`github` to go to the component's source code on GitHub.
+rocOpt is the only AMD Data Science component in the 26.07 release. Click {fab}`github` to go to the component's source code on GitHub.
 
 <div class="pst-scrollable-table-container">
     <table id="rocm-rn-components" class="table">
@@ -48,185 +39,72 @@ changes. Click {fab}`github` to go to the component's source code on GitHub.
             <tr>
                 <th>Name</th>
                 <th>Version</th>
-                <th></th>
+                <th>GitHub</th>
             </tr>
         </thead>
         <colgroup>
             <col span="1">
             <col span="1">
         </colgroup>
-        <tbody class="amd-ds-components">
+        <tbody class="rocm-ds-components">
             <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipDF/en/docs-26.03/">hipDF</a></td>
-                <td>2.0.0&nbsp;&Rightarrow;&nbsp;<a href="#hipdf-3-0-0">3.0.0</a></td>
-                <td><a href="https://github.com/AMD-Ecosystem/hipDF"><i class="fab fa-github fa-lg"></i></a></td>
-            </tr>
-            <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipMM/en/docs-26.03/">hipMM</a></td>
-                <td>3.0.0&nbsp;&Rightarrow;&nbsp;<a href="#hipmm-4-0-0">4.0.0</a></td>
-                <td><a href="https://github.com/AMD-Ecosystem/hipMM"><i class="fab fa-github fa-lg"></i></a></td>
-            </tr>
-            <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipGRAPH/en/docs-26.03/">hipGRAPH</a></td>
-                <td>1.0.0b1</td>
-                <td><a href="https://github.com/AMD-Ecosystem/hipGRAPH"><i class="fab fa-github fa-lg"></i></a></td>
-            </tr>
-            <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipRaft/en/docs-26.03/">hipRAFT</a></td>
-                <td>0.1.0&nbsp;&Rightarrow;&nbsp;<a href="#hipraft-1-0-0">1.0.0</a></td>
-                <td><a href="https://github.com/AMD-Ecosystem/hipRaft"><i class="fab fa-github fa-lg"></i></a></td>
-            </tr>
-            <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hipVS/en/docs-26.03/">hipVS</a></td>
-                <td>0.1.0&nbsp;&Rightarrow;&nbsp;<a href="#hipvs-1-0-0">1.0.0</a></td>
-                <td><a href="https://github.com/AMD-Ecosystem/hipVS"><i class="fab fa-github fa-lg"></i></a></td>
-            </tr>
-            <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/dask-hip/en/docs-26.03/">dask-hip</a></td>
-                <td><a href="#dask-hip-1-0-0">1.0.0</a></td>
-                <td><a href="https://github.com/AMD-Ecosystem/dask-hip"><i class="fab fa-github fa-lg"></i></a></td>
-            </tr>
-            <tr>
-                <td><a href="https://rocm.docs.amd.com/projects/hip-ucxx/en/docs-26.03/">hip-ucxx</a></td>
-                <td><a href="#hip-ucxx-0-1-0">0.1.0</a></td>
-                <td><a href="https://github.com/AMD-Ecosystem/hip-ucxx"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://rocm.docs.amd.com/projects/rocopt/en/latest/">rocOpt</a></td>
+                <td><a href="#rocOpt-1-0-0">1.0.0</a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/rocOpt"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>
 </div>
 
-## Detailed component Changelogs
+## Detailed component changelog
 
 The following sections describe key changes to AMD Data Science components.
 
-### hipDF (3.0.0)
+### rocOpt (1.0.0)
 
-#### Added 
+#### Supported APIs
 
-* API alignment with upstream 25.10 functionality 
-* Support for ROCm 7.2.3 
-* New `pylibhipdf` wrapper module with Python bindings compatible with upstream `pylibcudf` 
-* Support for the gfx950 GPU architecture 
-* Experimental support for gfx11xx and gfx12xx RDNA architectures: 
+- **C++ API** — native API, supporting all features
+- **C API** — LP, MILP, QP
+- **Python API** — Routing (TSP, VRP, PDP); LP, MILP, and QP via the algebraic
+  modeling interface
+- **Server API** — LP, MILP, Routing (TSP, VRP, PDP)
 
-    - gfx1100 
-    - gfx1101 
-    - gfx1200 
-    - gfx1201 
+#### Build & packaging
 
-* Added hipcomp zstd GPU decompression support for ORC and Parquet 
+- Ported the RAPIDS/cuOpt build onto AMD Data Science: `rapids-cmake`, `rmm`/`hipmm`,
+  `libraft`/`hipRaft`, `rocthrust`, `libhipcxx`, and the ROCm-DS logger are
+  sourced from the open-source AMD-Ecosystem forks and the `rocm-7.2.3` PyPI index.
+- Two-stage container build (`dockerfile.rocm`): compile on ROCm 7.1.1, run on ROCm 7.2.3.
+- MPS parser dependency repinned to `rocopt-mps-parser` (`25.10.*`).
+- Benchmark tooling: multi-GPU dispatcher, an image benchmark build option, and
+  short LP/MILP pre-flight scripts with idempotent dataset download.
+- rocOpt version set to `1.0.0`, `CUOPT_VERSION` (`25.10.00`) and `CUOPT_BRANCH`
+  (`branch-25.10`) track the upstream base.
 
-#### Known limitations
 
-* DEBUG builds with `-O0` are not currently supported. Use `-Og` or higher. 
-* Some `cudf.pandas` acceleration layer configurations may show instability under heavy memory pressure, particularly with XNACK-related settings. 
+#### Example notebooks
 
-### hipMM (4.0.0)
+Prebuilt Jupyter notebooks under [`examples_notebook/`](https://github.com/AMD-Ecosystem/rocOpt/tree/release/rocopt-26.07/examples_notebook) show
+end-to-end rocOpt workflows on AMD GPUs and are ready to run in the rocOpt
+container:
 
-#### Added 
+- **Diet optimization (LP)** —
+  `diet_optimization/diet_optimization_lp.ipynb`: the classic diet problem solved as a linear program with the Python modeling
+  API, minimizing cost subject to nutritional requirements.
+- **Diet optimization (MILP)** —
+  `diet_optimization/diet_optimization_milp.ipynb`: the same problem with integer decisions, demonstrating mixed integer linear
+  programming.
+- **Last-mile delivery (CVRPTW)** —
+  `last_mile_delivery/cvrptw_benchmark_rocopt.ipynb`: a capacitated vehicle routing problem with time windows on the Gehring &
+  Homberger benchmark, focused on time-to-solution and routing performance.
 
-* Updated to newer upstream 25.10 functionality 
-* Support for ROCm 7.2.3 
-* Support for the gfx950 GPU architecture 
-* Transition from a header-only library to a shared library model, with core implementations now delivered in librmm.so 
-* Improved downstream build times through precompiled library delivery 
-* New non-blocking HIP stream support via the cuda_stream class 
-* Enhanced out-of-memory diagnostics with clearer failure reporting 
-* Integration with ROCmDS-Logger 
-* Python package support through the new amd-hipmm package and hipmm namespace 
-* Python 3.13 support 
-
-#### Changes 
-
-* Downstream projects must now link against `librmm.so` using `find_package(rmm)` and `rmm::rmm` 
-* The logging API has migrated from `spdlog` to `rocmds-logger` 
-
-### hipRAFT (1.0.0)
-
-#### Added
-
-* Updated to newer upstream 25.10 functionality 
-* ROCm 7.2.3 support 
-* Support for gfx950 
-* Added RAFT_CUDA_TRY error-checking support for HIP runtime API calls 
-* Ported NN-Descent graph construction kernel with wavefront-size-64 compatibility 
-* Improved hipBLASLt GEMM device pointer mode handling on AMD GPUs 
-
-#### Changes
-
-* OpenMP cleanup and HIP TLS exit behavior 
-* Half-precision construction under HIP 
-* GEMM test stability 
-* MST correctness on 64-wide wavefronts 
-* Synchronization and race conditions 
-* RCCL header inclusion 
-* Eigenvalue ordering and histogram initialization
+Each notebook includes an environment-setup step for installing prerequisites so
+it can be run directly from the prebuilt image.
 
 #### Known limitations
 
-* Multi-node / multi-GPU is experimental 
-* `raft-dask` is experimental 
-
-### hipVS (1.0.0)
-
-#### Added
-
-* Updated to newer upstream 25.10 functionality 
-* ROCm 7.2.3 support 
-* Support for gfx950 
-* Enabled multi-GPU algorithms and RCCL configurations 
-* New Composable Kernel (CK) pairwise distance support for: 
-
-    - L2 
-    - cosine 
-    - inner-product distance kernels 
-
-* Improved support for large datasets, including batch processing enhancements for NN-Descent 
-* Added benchmark visualization tooling for interactive comparison of benchmark results 
-
-#### Changes
-
-* Wavefront-width compatibility (wf32 and wf64) 
-* ANN algorithm correctness 
-* HIP race conditions 
-* Spectral clustering stability 
-* Graph build robustness 
-
-#### Known limitations 
-
-* Multi-node / multi-GPU remains experimental 
-* `wf32` support remains experimental 
-
-
-### dask-hip (1.0.0)
-
-#### Added 
-
-* Initial release of dask-hip 
-* ROCm 7.2.3 support 
-* Based on upstream 25.10 functionality 
-* Ships as the amd-dask-hip Python package on AMD PyPI 
-* Introduces a `pynvml-to-amdsmi` translation layer so existing dask-cuda logic can operate on AMD GPUs with minimal changes 
-* ROCm auto-detection at import time 
-* Support for HIP_VISIBLE_DEVICES, automatically mapped to CUDA_VISIBLE_DEVICES when needed 
-* Runtime dependencies for HIP interoperability, GPU telemetry, and numba-hip support 
-* Optional UCXX-related dependencies for ROCm communication testing 
-
-#### Known limitations
-
-* Only AMD GPUs are supported 
-* UCXX-based multi-node communication on ROCm is experimental 
-* TCP transport is fully supported 
-* GPUDirect Storage (GDS) is not available on AMD in this release 
-* Proxy-based spilling behavior may differ from NVIDIA GPU platforms 
-
-### hip-ucxx (0.1.0)
-
-#### Added 
-
-* hip-ucxx is introduced in AMD Data Science 26.03 as a new communication component for distributed GPU workflows on AMD platforms. 
-* ROCm 7.2.3 support 
-
-```{note}
-UCXX-based multi-node communication is early access (EA) in AMD Data Science 26.03.
-```
+**cuDSS** does not have a rocOpt equivalent yet. Solver paths that depend on cuDSS
+(sparse Cholesky / LDL^T) are not yet available on ROCm. This affects the
+**LP barrier method** and **MIP branch-and-bound** flows that rely on it; the
+corresponding server tests are skipped.

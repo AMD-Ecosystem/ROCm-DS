@@ -16,20 +16,25 @@ System requirements
 The following are the AMD Data Science release compatibilities and system requirements: 
 
 * `ROCm 7.2.3 <https://rocm.docs.amd.com/projects/install-on-linux/en/docs-7.2.3/>`__
-* Operating Systems: Ubuntu 24.04 and 22.04  
+
+  .. note::
+      
+     ROCm version compatibility: The 26.07 release builds rocOpt against ROCm 7.1.1, but runs it on ROCm 7.2.3.
+
+* Operating Systems: Ubuntu 24.04  
 * AMD Instinct GPUs: 
 
   - MI355X (GPU target gfx950) 
-  - MI325X / MI300X (GPU target gfx942) 
-  - MI250 / MI210 (GPU target gfx90a) 
+  - MI300X (GPU target gfx942) 
 
-* Python versions: 3.10, 3.11, 3.12, 3.13
+* Python versions: 3.13
 
 Installation instructions
 =========================
 
-Each AMD Data Science 26.03 component must be separately installed as needed. The installation instructions for each component can be found as follows: 
+Each AMD Data Science component must be separately installed as needed. You can find the installation instructions for each component as follows: 
 
+* `rocOpt Installation instructions <https://rocm.docs.amd.com/projects/rocopt/en/latest/install/install_rocopt.html>`__
 * `hipDF Installation instructions <https://rocm.docs.amd.com/projects/hipDF/en/docs-26.03/install/INSTALL.html>`__
 * `hipMM Installation instructions <https://rocm.docs.amd.com/projects/hipMM/en/docs-26.03/install/INSTALL.html>`__
 * `hipGRAPH Installation instructions <https://rocm.docs.amd.com/projects/hipGRAPH/en/latest/install/Linux_Install_Guide.html>`__

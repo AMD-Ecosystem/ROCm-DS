@@ -1,18 +1,18 @@
 ---
 myst:
   html_meta:
-    "description": "Learn about the features and capabilities of AMD Data Science"
+    "description": "Learn about the features and capabilities of ROCm for Data Science (ROCm-DS)"
     "keywords": "Data-analytics, RAPIDS, cuDF, cuGraph, RMM, hipDF, hipGraph, hipMM, Pandas, NetworkX, High-Performance Computing, GPU Acceleration, GPU Computing, Parallel Computing, Scalable Data Science, Python"
 ---
 
-# AMD Data Science license
+# ROCm-DS license
 
 ```{include} ../../LICENSE
 ```
 
-## AMD Data Science component licenses
+## ROCm-DS component licenses
 
-AMD Data Science is a fork of the RAPIDS® Open Source project from NVIDIA®, and is licensed
+ROCm-DS is a fork of the RAPIDS® Open Source project from NVIDIA®, and is licensed
 accordingly, with each listed component providing links to their respective license
 terms. These components may include third party components subject to additional
 licenses. Please review individual repositories for more information.
@@ -28,9 +28,10 @@ licenses. Please review individual repositories for more information.
 | [rocGRAPH](https://github.com/AMD-Ecosystem/rocGRAPH) | [Apache 2.0](https://github.com/AMD-Ecosystem/rocGRAPH/blob/release/1.0.x/LICENSE) |
 | [dask-hip](https://github.com/AMD-Ecosystem/dask-hip/) | [Apache 2.0](https://github.com/AMD-Ecosystem/dask-hip/blob/release/rocmds-26.03/LICENSE) |
 | [hip-ucxx](https://github.com/AMD-Ecosystem/hip-ucxx/) | [BSD-3-Clause license](https://github.com/AMD-Ecosystem/hip-ucxx/blob/release/rocmds-26.03/LICENSE) |
+| [rocOpt](https://github.com/AMD-Ecosystem/rocOpt/blob/release/rocopt-26.07) | [Apache 2.0](https://github.com/AMD-Ecosystem/rocOpt/blob/release/rocopt-26.07/LICENSE) |
 
 ```{note}
-The following additional terms and conditions apply to your use of AMD Data Science documentation.
+The following additional terms and conditions apply to your use of ROCm-DS documentation.
 ```
 
 ©2025 Advanced Micro Devices, Inc. All rights reserved.

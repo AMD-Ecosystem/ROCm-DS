@@ -8,15 +8,15 @@ shutil.copy2("../RELEASE.md", "./about/release-notes.md")
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "rocm.docs.amd.com")
 #html_context = {}
 html_context = {
-    "docs_header_version": "26.03"
+    "docs_header_version": "26.07"
 }
 if os.environ.get("READTHEDOCS", "") == "True":
     html_context["READTHEDOCS"] = True
 project = "AMD Data Science"
 
-version = "26.03"
+version = "26.07"
 release = version
-html_title = "AMD Data Science 26.03 documentation"
+html_title = "AMD Data Science 26.07 documentation"
 author = "Advanced Micro Devices, Inc."
 copyright = "Copyright (c) 2025 Advanced Micro Devices, Inc. All rights reserved."
 setting_all_article_info = True
