@@ -1,8 +1,8 @@
-# ROCm-DS compatibility matrix
+# AMD Data Science compatibility matrix
 
-Use this matrix to view the ROCm-DS compatibility and system requirements across the releases:
+Use this matrix to view the AMD Data Science compatibility and system requirements across the releases:
 
-| ROCm-DS version | Components  | AMD Instinct GPU | ROCm version | Operating system | Python version | 
+| AMD Data Science version | Components  | AMD Instinct GPU | ROCm version | Operating system | Python version | 
 |--------------|------------------|--------------|----------------|----------|----------------|
 | 26.07 | <ul><li>[rocOpt 1.0.0](https://rocm.docs.amd.com/projects/rocopt/en/latest/)</li></ul> | <ul><li>MI355X (GPU target gfx950)</li><li>MI300X (GPU target gfx942)</li></ul> | <ul><li>[7.2.3](https://rocm.docs.amd.com/projects/install-on-linux/en/docs-7.2.3/)</li></ul> | <ul><li>Ubuntu 24.04</li></ul> | <ul><li>3.13</li></ul> |
 | 26.03 | <ul><li>[hipDF 3.0.0](https://rocm.docs.amd.com/projects/hipDF/en/docs-26.03/)</li><li>[hipMM 4.0.0](https://rocm.docs.amd.com/projects/hipMM/en/docs-26.03)</li><li>[hipGRAPH 1.0.0b1](https://rocm.docs.amd.com/projects/hipGRAPH/en/docs-26.03/)</li><li>[hipRAFT 1.0.0](https://rocm.docs.amd.com/projects/hipRAFT/en/docs-26.03/)</li><li>[hipVS 1.0.0](https://rocm.docs.amd.com/projects/hipvs/en/docs-26.03/)</li><li>[dask-hip 1.0.0](https://rocm.docs.amd.com/projects/dask-hip/en/docs-26.03/)</li><li>[hip-ucxx 0.1.0](https://rocm.docs.amd.com/projects/hip-ucxx/en/docs-26.03/)</li></ul> | <ul><li>MI355X (GPU target gfx950)</li><li>MI325X / MI300X (GPU target gfx942)</li><li>MI250 / MI210 (GPU target gfx90a)</li></ul> | <ul><li>[7.2.3](https://rocm.docs.amd.com/projects/install-on-linux/en/docs-7.2.3/)</li></ul> | <ul><li>Ubuntu 24.04</li><li>Ubuntu 22.04</li></ul> | <ul><li>3.10</li><li>3.11</li><li>3.12</li><li>3.13</li></ul>  |

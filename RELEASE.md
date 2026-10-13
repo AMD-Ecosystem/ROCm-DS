@@ -18,7 +18,7 @@ The 26.07 release introduces rocOpt for decision optimization:
 
 - Initial ROCm/HIP port of the cuOpt engine running natively on AMD Instinct GPUs.
 - Multi-architecture fat binary built by default for **gfx942 (MI300X / CDNA3)**
-and **gfx950 (MI350X / MI355X)**. HIP selects the correct code object at load
+and **gfx950 (MI355X)**. HIP selects the correct code object at load
 time, so a single image runs on either part.
 - Full C, C++, Python, and Server API surface carried over from cuOpt.
 - The container image builds on ROCm 7.1.1 and runs on the ROCm 7.2.3 runtime, avoiding
@@ -79,8 +79,8 @@ The following sections describe key changes to AMD Data Science components.
 - MPS parser dependency repinned to `rocopt-mps-parser` (`25.10.*`).
 - Benchmark tooling: multi-GPU dispatcher, an image benchmark build option, and
   short LP/MILP pre-flight scripts with idempotent dataset download.
-- rocOpt version set to `1.0.0`, `CUOPT_VERSION` (`25.10.00`) and `CUOPT_BRANCH`
-  (`branch-25.10`) track the upstream base.
+- rocOpt version set to `1.0.0`, `CUOPT_VERSION` (`26.02.00`) and `CUOPT_BRANCH`
+  (`branch-26.02`) track the upstream base.
 
 
 #### Example notebooks

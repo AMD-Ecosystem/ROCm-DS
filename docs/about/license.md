@@ -1,18 +1,18 @@
 ---
 myst:
   html_meta:
-    "description": "Learn about the features and capabilities of ROCm for Data Science (ROCm-DS)"
+    "description": "Learn about the features and capabilities of AMD Data Science"
     "keywords": "Data-analytics, RAPIDS, cuDF, cuGraph, RMM, hipDF, hipGraph, hipMM, Pandas, NetworkX, High-Performance Computing, GPU Acceleration, GPU Computing, Parallel Computing, Scalable Data Science, Python"
 ---
 
-# ROCm-DS license
+# AMD Data Science license
 
 ```{include} ../../LICENSE
 ```
 
-## ROCm-DS component licenses
+## AMD Data Science component licenses
 
-ROCm-DS is a fork of the RAPIDS® Open Source project from NVIDIA®, and is licensed
+AMD Data Science is a fork of the RAPIDS® Open Source project from NVIDIA®, and is licensed
 accordingly, with each listed component providing links to their respective license
 terms. These components may include third party components subject to additional
 licenses. Please review individual repositories for more information.
@@ -31,7 +31,7 @@ licenses. Please review individual repositories for more information.
 | [rocOpt](https://github.com/AMD-Ecosystem/rocOpt/blob/release/rocopt-26.07) | [Apache 2.0](https://github.com/AMD-Ecosystem/rocOpt/blob/release/rocopt-26.07/LICENSE) |
 
 ```{note}
-The following additional terms and conditions apply to your use of ROCm-DS documentation.
+The following additional terms and conditions apply to your use of AMD Data Science documentation.
 ```
 
 ©2025 Advanced Micro Devices, Inc. All rights reserved.
