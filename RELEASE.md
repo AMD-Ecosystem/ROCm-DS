@@ -50,7 +50,7 @@ rocOpt is the only AMD Data Science component in the 26.07 release. Click {fab}`
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/rocopt/en/latest/">rocOpt</a></td>
                 <td><a href="#rocOpt-1-0-0">1.0.0</a></td>
-                <td><a href="https://github.com/AMD-Ecosystem/rocOpt"><i class="fab fa-github fa-lg"></i></a></td>
+                <td><a href="https://github.com/AMD-Ecosystem/rocOpt/tree/release/rocopt-26.07"><i class="fab fa-github fa-lg"></i></a></td>
             </tr>
         </tbody>
     </table>
