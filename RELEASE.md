@@ -103,7 +103,4 @@ The docker image does not include the example notebooks, so fetch them from the 
 
 #### Known limitations
 
-**cuDSS** does not have a rocOpt equivalent yet. Solver paths that depend on cuDSS
-(sparse Cholesky / LDL^T) are not yet available on ROCm. This affects the
-**LP barrier method** and **MIP branch-and-bound** flows that rely on it; the
-corresponding server tests are skipped.
+The Barrier (interior-point) LP solver depends on the  **cuDSS** sparse direct solver, and has no ROCm equivalent in this release. Use PDLP for large LPs and dual simplex for smaller problems.
