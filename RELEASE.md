@@ -76,7 +76,7 @@ The following sections describe key changes to AMD Data Science components.
   `libraft`/`hipRaft`, `rocthrust`, `libhipcxx`, and the ROCm-DS logger are
   sourced from the open-source AMD-Ecosystem forks and the `rocm-7.2.3` PyPI index.
 - Two-stage container build (`dockerfile.rocm`): compile on ROCm 7.1.1, run on ROCm 7.2.3.
-- MPS parser dependency repinned to `rocopt-mps-parser` (`25.10.*`).
+- MPS parser dependency repinned to `rocopt-mps-parser` (`1.0.0`).
 - Benchmark tooling: multi-GPU dispatcher, an image benchmark build option, and
   short LP/MILP pre-flight scripts with idempotent dataset download.
 - rocOpt version set to `1.0.0`, `CUOPT_VERSION` (`26.02.00`) and `CUOPT_BRANCH`
