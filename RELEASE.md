@@ -85,7 +85,7 @@ The following sections describe key changes to AMD Data Science components.
 
 #### Example notebooks
 
-Prebuilt Jupyter notebooks under [`examples_notebook/`](https://github.com/AMD-Ecosystem/rocOpt/tree/release/rocopt-26.07/examples_notebook) show
+Jupyter notebooks under [`examples_notebook/`](https://github.com/AMD-Ecosystem/rocOpt/tree/release/rocopt-26.07/examples_notebook) show
 end-to-end rocOpt workflows on AMD GPUs and are ready to run in the rocOpt
 container:
 
