@@ -28,6 +28,7 @@ licenses. Please review individual repositories for more information.
 | [rocGRAPH](https://github.com/AMD-Ecosystem/rocGRAPH) | [Apache 2.0](https://github.com/AMD-Ecosystem/rocGRAPH/blob/release/1.0.x/LICENSE) |
 | [dask-hip](https://github.com/AMD-Ecosystem/dask-hip/) | [Apache 2.0](https://github.com/AMD-Ecosystem/dask-hip/blob/release/rocmds-26.03/LICENSE) |
 | [hip-ucxx](https://github.com/AMD-Ecosystem/hip-ucxx/) | [BSD-3-Clause license](https://github.com/AMD-Ecosystem/hip-ucxx/blob/release/rocmds-26.03/LICENSE) |
+| [rocOpt](https://github.com/AMD-Ecosystem/rocOpt/blob/release/rocopt-26.07) | [Apache 2.0](https://github.com/AMD-Ecosystem/rocOpt/blob/release/rocopt-26.07/LICENSE) |
 
 ```{note}
 The following additional terms and conditions apply to your use of AMD Data Science documentation.
