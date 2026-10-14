@@ -99,8 +99,7 @@ container:
   `last_mile_delivery/cvrptw_benchmark_rocopt.ipynb`: a capacitated vehicle routing problem with time windows on the Gehring &
   Homberger benchmark, focused on time-to-solution and routing performance.
 
-Each notebook includes an environment-setup step for installing prerequisites so
-it can be run directly from the prebuilt image.
+The docker image does not include the example notebooks, so fetch them from the repo into `/rocopt-release/examples_notebook`. Each notebook includes an environment-setup step for installing prerequisites so it can be run directly from the prebuilt image.
 
 #### Known limitations
 
