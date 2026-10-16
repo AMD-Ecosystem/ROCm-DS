@@ -9,4 +9,4 @@ science pipelines with minimal effort.
 
 AMD Data Science delivers a cohesive set of libraries that target every stage of the data science lifecycle, from data ingestion and transformation
 to graph analytics, mathematical computation, and vector search. Each component is optimized for GPU performance while maintaining user-friendly
-interfaces compatible with existing data science frameworks and APIs. For more information, see the [AMD Data Science documentation](https://rocm.docs.amd.com/projects/rocm-ds/en/latest/index.html).
+interfaces compatible with existing data science frameworks and APIs. For more information, see the [AMD Data Science documentation](https://rocm.docs.amd.com/projects/datascience/en/latest/index.html).
