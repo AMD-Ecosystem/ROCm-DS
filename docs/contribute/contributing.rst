@@ -2,7 +2,7 @@
     :description: contributing to AMD Data Science
     :keywords: Data-analytics, RAPIDS, cuDF, cuGraph, RMM, hipDF, hipGRAPH, hipMM, Pandas, NetworkX, High-Performance Computing, GPU Acceleration, GPU Computing, Parallel Computing, Scalable Data Science, Python
 
-.. _contributing-to-rocm-ds:
+.. _contributing-to-datascience:
 
 *********************************
 Contributing to AMD Data Science
