@@ -49,7 +49,7 @@ changes for the components. Click {fab}`github` to go to the component's source 
             <col span="1">
             <col span="1">
         </colgroup>
-        <tbody class="rocm-ds-components">
+        <tbody class="datascience-components">
             <tr>
                 <td><a href="https://rocm.docs.amd.com/projects/hipDF/en/docs-25.10/">hipDF</a></td>
                 <td>1.0.0b1&nbsp;&Rightarrow;&nbsp;<a href="#hipdf-2-0-0">2.0.0</a></td>
