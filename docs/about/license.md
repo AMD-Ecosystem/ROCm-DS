@@ -34,7 +34,7 @@ licenses. Please review individual repositories for more information.
 The following additional terms and conditions apply to your use of AMD Data Science documentation.
 ```
 
-©2025 Advanced Micro Devices, Inc. All rights reserved.
+©2026 Advanced Micro Devices, Inc. All rights reserved.
 
 The information presented in this document is for informational purposes only
 and may contain technical inaccuracies, omissions, and typographical errors. The
