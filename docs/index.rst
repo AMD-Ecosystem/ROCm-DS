@@ -34,5 +34,5 @@ AMD Data Science documentation is organized into the following categories:
   .. grid-item-card:: Related Content
 
     * `Instinct docs <https://instinct.docs.amd.com/latest/>`_
-    * `AMD Data Science blogs <https://instinct.docs.amd.com/latest/data-science/ROCmDS-Blogs.html>`_
-    * :ref:`contributing-to-rocm-ds`
+    * `AMD Data Science blogs <https://rocm.blogs.amd.com/data-science.html>`_
+    * :ref:`contributing-to-datascience`
