@@ -31,7 +31,7 @@ subtrees:
   entries:
   - url: https://instinct.docs.amd.com/latest/
     title: Instinct docs
-  - url: https://instinct.docs.amd.com/latest/data-science/ROCmDS-Blogs.html
+  - url: https://rocm.blogs.amd.com/data-science.html
     title: Data Science blogs
   - file: contribute/contributing.rst
     title: Contributing to AMD Data Science
